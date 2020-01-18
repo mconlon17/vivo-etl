@@ -15,7 +15,7 @@ triple store.
 
 A data extractor:
 
-    m <- dataextractor(pid)
+    m <- dataExtractor(pid)
     
 The data extractor knows its source, its domain (person, paper, etc) and returns a set of
 key-value pairs (m) containing the metadata extracted from the source.
@@ -24,7 +24,7 @@ Data extractors can be quite simple, using an API call to a remote source, readi
 a spreadsheet, making a database call, and returning a simple metadata object for further 
 processing.
 
-Data extractors are fragile --  if the source3 changes, the data extractor must change.
+Data extractors depend on their soure.  If the source or the map changes, the data extractor must change.
 
 ## Data translator
 
@@ -46,7 +46,7 @@ VIVO RDF.
 
 A data translator:
 
-     (uri, assertions) <- datatranslator(m)
+     (uri, assertions) <- dataTranslator(m)
 
 The data translator pipeline:
 
@@ -65,7 +65,7 @@ metadata for the referent and supply the URI to the parent data translator.
 1. robot is used to validate the NamedIndividual against the VIVO ontology.
 1. The NamedIndividual and the URI of the NamedIndividual are returned.
 
-Data translators are fragile.  If the ontology chnages, the translator must change.  If the
+Data translators are fragile.  If the ontology changes, the translator must change.  If the
 map changes, the data translator must change.
 
 ## Data Loader
@@ -76,6 +76,12 @@ is authorized to write data to the VIVO triple store.
 
 A data loader:
 
-    VIVO <- dataloader(assertions)
+    VIVO <- dataLoader(assertions)
     
 Data loaders are dependent on the VIVO APIs.  If the VIVO APIs change, the data loader must be changed.
+
+## An ETL pipeline
+
+A pipeline for a VIVO entity:
+
+    pid -> dataExtractor -> m -> dataTranslator -> assertions -> dataLoader -> VIVO
