@@ -20,6 +20,12 @@ A data extractor:
 The data extractor knows its source, its domain (person, paper, etc) and returns a set of
 key-value pairs (m) containing the metadata extracted from the source.
 
+Data extractors can be quite simple, using an API call to a remote source, reading a row from 
+a spreadsheet, making a database call, and returning a simple metadata object for further 
+processing.
+
+Data extractors are fragile --  if the source3 changes, the data extractor must change.
+
 ## Data translator
 
 A data translator is a pipeline from a persistent identifier (PID) to the VIVO assertions 
@@ -44,9 +50,6 @@ A data translator:
 
 The data translator pipeline:
 
-1. The data translator "gets" the raw metadata from a source.  The source may be a web API,
-a local file or database or any other source.  The `get` is fragile -- if the remote
-source changes what it produces, the `get` must be changed.
 1. The data translator contains business logic that maps the raw metadata to the VIVO 
 ontology and produces a robot 
 template.  The `map` is fragile.  If the VIVO Ontology changes, the `map` must change.
@@ -62,8 +65,8 @@ metadata for the referent and supply the URI to the parent data translator.
 1. robot is used to validate the NamedIndividual against the VIVO ontology.
 1. The NamedIndividual and the URI of the NamedIndividual are returned.
 
-Data translators do not load assertions to VIVO.  This done by a pipeline that uses data 
-translators to create assertions to be loaded to VIVO.
+Data translators are fragile.  If the ontology chnages, the translator must change.  If the
+map changes, the data translator must change.
 
 ## Data Loader
 
@@ -74,3 +77,5 @@ is authorized to write data to the VIVO triple store.
 A data loader:
 
     VIVO <- dataloader(assertions)
+    
+Data loaders are dependent on the VIVO APIs.  If the VIVO APIs change, the data loader must be changed.
