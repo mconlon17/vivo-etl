@@ -1,6 +1,6 @@
 # VIVO ETL
 
-[VIVO](https://github.com/vivo-project) uses an ontology to represent scholarship.  VIVO 
+[VIVO](https://github.com/vivo-project) uses ontologies to represent scholarship.  VIVO 
 collects data from sources local to
 the institution (people, personnel positions, awards and honors, teaching, performances, 
 advising), and combines these data with data from external sources (papers, books, 
