@@ -8,8 +8,7 @@
 
     All options are set via the command line
 
-    TODO: Add Mesh terms, authors, dates
-    TODO: allow the perfect routine to print if verbose.  Print the data returned from entrez
+    TODO: Add Mesh terms, authors
 """
 
 import requests
@@ -22,11 +21,41 @@ __copyright__ = "Copyright (c) 2020 Michael Conlon"
 __license__ = "Apache-2"
 __version__ = "0.0.1"
 
+args = None
+
+
+def make_author_list(a_list):
+
+    # from a list of authors, return a string of the the author names
+
+    authors = ''
+    n_authors = len(a_list)
+    for a in a_list:
+        authors += a["LastName"] + ', ' + a["ForeName"]
+        if a != a_list[n_authors-1]:
+            authors += ', '
+    return authors
+
+
+def make_date(date_dict):
+
+    # from a date_dict, make a single string date value
+
+    months = {"Jan": "01", "Feb": "02", "Mar": "03", "Apr": "04", "May": "05", "Jun": "06",
+              "Jul": "07", "Aug": "08", "Sep": "09", "Oct": "10", "Nov": "11", "Dec": "12"}
+
+    return date_dict["Year"] + months[date_dict["Month"]] + date_dict["Day"]
+
 
 def perfect_pub(pmid):
+    global args
+
     entrez_url = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id={{pmid}}&retmode=xml'
-    url = entrez_url.replace("{{pmid}}", pmid)
+    url = entrez_url.replace("{{pmid}}", str(pmid))
     m = xmltodict.parse(requests.get(url).text)
+    if args.verbose > 1:
+        print(json.dumps(m, indent=4))
+
     pub = dict()
 
     # the attributes in pub are a union of the attributes used by Zotero and those used by CSL for representing journal
@@ -43,7 +72,9 @@ def perfect_pub(pmid):
     pub['editor'] = ''  # repeated for each
     pub['reviewedAuthor'] = ''  # repeated for each
     pub['translator'] = ''  # repeated for each
-    pub['date-issued'] = ''
+    pub['date-issued'] = make_date(
+        m['PubmedArticleSet']['PubmedArticle']['MedlineCitation']['Article']['Journal']['JournalIssue'][
+            'PubDate'])
 
     # Find the doi as the value associated with the 'pii' key in the list of article ids
 
@@ -87,17 +118,26 @@ def perfect_pub(pmid):
     pub['nihmsid'] = ''
     pub['mesh'] = ''  # repeated for each term
 
+    # even more attributes
+
+    pub['author_list'] = make_author_list(
+        m['PubmedArticleSet']['PubmedArticle']['MedlineCitation']['Article']['AuthorList']['Author'])
+
     return pub
 
 
 def main():
+    global args
     parser = argparse.ArgumentParser(description="extract pub from Pubmed for VIVO")
     parser.add_argument('--verbose', '-v', action='count', default=0, help="show work")
-    parser.add_argument("--pmid", dest="pub", required=True, help="a pmid", metavar="PMID", type=perfect_pub)
+    parser.add_argument("--pmid", dest="pmid", required=True, help="a pmid", metavar="PMID", type=int)
     args = parser.parse_args()
     print(args.verbose)
     if args.verbose > 0:
-        print(json.dumps(args.pub, indent=4))
+        print("Retrieving", args.pmid, "from PubMed")
+    pub = perfect_pub(args.pmid)
+    if args.verbose > 0:
+        print(json.dumps(pub, indent=4))
     return
 
 
