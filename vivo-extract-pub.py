@@ -47,6 +47,18 @@ def make_date(date_dict):
     return date_dict["Year"] + months[date_dict["Month"]] + date_dict["Day"]
 
 
+def make_keywords(kw_list):
+
+    # from a kw_list, return the keyword values
+
+    keywords = []
+
+    for keyword_dict in kw_list:
+        keywords.append(keyword_dict["#text"])
+
+    return keywords
+
+
 def perfect_pub(pmid):
     global args
 
@@ -116,7 +128,7 @@ def perfect_pub(pmid):
     pub['pmcid'] = ''
     pub['pmcid_url'] = ''
     pub['nihmsid'] = ''
-    pub['mesh'] = ''  # repeated for each term
+    pub['keywords'] = make_keywords(m['PubmedArticleSet']['PubmedArticle']['MedlineCitation']['KeywordList']['Keyword'])
 
     # even more attributes
 
