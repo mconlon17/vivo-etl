@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-    vivo-extract-date: from a source (the command line), and
-    return a date metadata object
+    vivo-extract-date: from a source (the command line),
+    return a date metadata object, a dict with two keys -- date and precision
 
 """
 
@@ -17,7 +17,7 @@ __version__ = "0.0.1"
 
 def perfect_date(val):
     from datetime import datetime
-    m = dict()
+    m = dict(kind='date')
     val = val.replace('-', '')
     val = val.replace('/', '')
     if len(val) == 4:
@@ -41,11 +41,11 @@ def main():
                         help="a date value", metavar="DATE",
                         type=perfect_date)
     args = parser.parse_args()
-    print(args.verbose)
     if args.verbose > 0:
         print(args.date)
     if args.verbose > 1:
         print(args.date['date'])
+    print(args.date)
     return
 
 
