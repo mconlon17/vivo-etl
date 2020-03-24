@@ -17,7 +17,27 @@ __version__ = "0.0.1"
 args = None
 
 
+def perfect_date(val):
+    from datetime import datetime
+    m = dict(kind='date')
+    val = val.replace('-', '')
+    val = val.replace('/', '')
+    if len(val) == 4:
+        m['date'] = val + '0101'
+        m['precision'] = 'year'
+    elif len(val) == 6:
+        m['date'] = val + '01'
+        m['precision'] = 'month'
+    elif len(val) == 8:
+        m['date'] = val
+        m['precision'] = 'day'
+    else:
+        raise argparse.ArgumentError(val + ' an unknown date')
+    return m
+
+
 def perfect_term(val):
+    from datetime import datetime
     global args
 
     # Given the text descriptor of a potential MeSH term, use the MeSH API to get metadata for the term
@@ -37,6 +57,7 @@ def perfect_term(val):
     m['rdf_url'] = m['resource_url'] + '.rdf'
     m['identifier'] = m['resource_url'][27:]  # The resource URL ends with identifier
     m['vocabulary'] = 'mesh'
+    m['extract_date'] = perfect_date(datetime.today().strftime('%Y%m%d'))
     return m
 
 
@@ -56,7 +77,6 @@ def main():
 
     print(term)
     return
-
 
 if __name__ == "__main__":
     main()

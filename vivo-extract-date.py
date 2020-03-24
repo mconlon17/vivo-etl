@@ -5,6 +5,8 @@
     vivo-extract-date: from a source (the command line),
     return a date metadata object, a dict with two keys -- date and precision
 
+
+
 """
 
 import argparse
@@ -21,13 +23,13 @@ def perfect_date(val):
     val = val.replace('-', '')
     val = val.replace('/', '')
     if len(val) == 4:
-        m['date'] = datetime.strptime(val, '%Y')
+        m['date'] = val + '0101'
         m['precision'] = 'year'
     elif len(val) == 6:
-        m['date'] = datetime.strptime(val, '%Y%m')
+        m['date'] = val + '01'
         m['precision'] = 'month'
     elif len(val) == 8:
-        m['date'] = datetime.strptime(val, '%Y%m%d')
+        m['date'] = val
         m['precision'] = 'day'
     else:
         raise argparse.ArgumentError(val + ' an unknown date')

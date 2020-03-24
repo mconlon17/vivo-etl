@@ -8,7 +8,7 @@
 
     All options are set via the command line
 
-    TODO: Add Mesh term objects, people objects, grant objects, journal objects
+    TODO: Add people objects
 """
 
 import requests
@@ -23,6 +23,58 @@ __license__ = "Apache-2"
 __version__ = "0.0.1"
 
 args = None
+
+
+def perfect_journal(issn, title, isoabbrev):
+    from datetime import datetime
+
+    m = dict(kind='journal')
+    m['extract_date'] = perfect_date(datetime.today().strftime('%Y%m%d'))
+
+    m['issn'] = issn
+    m['title'] = title
+    m['iso-abbreviation'] = isoabbrev
+
+    return m
+
+
+def perfect_grant(identifier, grantor, country, date):
+    from datetime import datetime
+
+    m = dict(kind='grant')
+    m['extract_date'] = perfect_date(datetime.today().strftime('%Y%m%d'))
+
+    m['identifier'] = identifier
+    m['grantor'] = grantor
+    m['country'] = country
+    if date != '':
+        m['award-date'] = perfect_date(date)
+    return m
+
+
+def perfect_term(val):
+    from datetime import datetime
+    global args
+
+    # Given the text descriptor of a potential MeSH term, use the MeSH API to get metadata for the term
+
+    m = dict(kind='term')
+    val = val.replace("'", "")
+    val = val.replace('"', '')
+    m['name'] = val
+
+    mesh_api_url = 'https://id.nlm.nih.gov/mesh/lookup/descriptor?label={{val}}&match=exact&limit=10'
+    url = mesh_api_url.replace("{{val}}", val)
+    request = requests.get(url, headers={'content-type': 'application/json', 'Accept-Charset': 'UTF-8'}).json()
+    print(request)
+    if args.verbose > 1:
+        print(json.dumps(request, indent=4))
+    m['resource_url'] = request[0]['resource']
+    m['rdf_url'] = m['resource_url'] + '.rdf'
+    m['identifier'] = m['resource_url'][27:]  # The resource URL ends with identifier
+    m['vocabulary'] = 'mesh'
+    m['extract_date'] = perfect_date(datetime.today().strftime('%Y%m%d'))
+    return m
 
 
 def make_abstract(abstract_thing):
@@ -65,6 +117,26 @@ def make_author_list(a_list):
     return authors
 
 
+def perfect_date(val):
+    from datetime import datetime
+    m = dict(kind='date')
+    val = val.replace('-', '')
+    val = val.replace('/', '')
+    if len(val) == 4:
+        m['date'] = val + '0101'
+        m['precision'] = 'year'
+    elif len(val) == 6:
+        m['date'] = val + '01'
+        m['precision'] = 'month'
+    elif len(val) == 8:
+        m['date'] = val
+        m['precision'] = 'day'
+    else:
+        print("in Perfect_date", val)
+        raise argparse.ArgumentError(val + ' an unknown date')
+    return m
+
+
 def make_date(date_dict):
 
     # from a date_dict, make a single string date value
@@ -72,8 +144,41 @@ def make_date(date_dict):
     months = {"Jan": "01", "Feb": "02", "Mar": "03", "Apr": "04", "May": "05", "Jun": "06",
               "Jul": "07", "Aug": "08", "Sep": "09", "Oct": "10", "Nov": "11", "Dec": "12"}
 
-    return str(dict(date=datetime.strptime(date_dict["Year"] + months[date_dict["Month"]] + date_dict["Day"], "%Y%m%d"),
-                    precision='day'))
+    return date_dict["Year"] + date_dict['Month'] if date_dict["Month"].startswith('0') or date_dict[
+        "Month"].startswith('1') else months[date_dict["Month"]] + date_dict["Day"]
+
+
+def make_journal(journal_thing):
+
+    # Given a PubMed journal_thing, find the values to feed to perfect_journal and return its value
+
+    return perfect_journal(journal_thing['ISSN']['#text'], journal_thing['Title'], journal_thing['ISOAbbreviation'])
+
+
+def make_grants(grant_list):
+
+    # Given a pubmed term list, return extracted terms
+
+    return_list = []
+
+    for grant in grant_list:
+        d = perfect_grant(grant['GrantID'], grant['Agency'], grant['Country'], '')
+        return_list.append(d)
+
+    return return_list
+
+
+def make_terms(terms_list):
+
+    # Given a pubmed term list, return extracted terms
+
+    return_list = []
+
+    for term in terms_list:
+        d = perfect_term(term['DescriptorName']["#text"])
+        return_list.append(d)
+
+    return return_list
 
 
 def make_keywords(kw_list):
@@ -118,9 +223,9 @@ def perfect_pub(pmid):
     pub['editor'] = ''  # repeated for each
     pub['reviewedAuthor'] = ''  # repeated for each
     pub['translator'] = ''  # repeated for each
-    pub['date-issued'] = make_date(
+    pub['date-issued'] = perfect_date(make_date(
         m['PubmedArticleSet']['PubmedArticle']['MedlineCitation']['Article']['Journal']['JournalIssue'][
-            'PubDate'])
+            'PubDate']))
 
     # Find the identifiers as the values associated with keys in the list of article ids
 
@@ -143,7 +248,6 @@ def perfect_pub(pmid):
         pub['doi'] = ''
 
     pub['extra-note'] = ''
-    pub['issn'] = m['PubmedArticleSet']['PubmedArticle']['MedlineCitation']['Article']['Journal']['ISSN']['#text']
 
     try:
         pub['Volume'] = m['PubmedArticleSet']['PubmedArticle']['MedlineCitation']['Article']['Journal']['JournalIssue'][
@@ -151,8 +255,6 @@ def perfect_pub(pmid):
     except KeyError:
         pub['Index'] = ''
 
-    pub['journal-abbreviation'] = m['PubmedArticleSet']['PubmedArticle']['MedlineCitation']['Article']['Journal'][
-        'ISOAbbreviation']
     pub['language'] = m['PubmedArticleSet']['PubmedArticle']['MedlineCitation']['Article']['Language']
     pub['library-catalogue'] = ''
 
@@ -161,7 +263,12 @@ def perfect_pub(pmid):
     except KeyError:
         pub['pages'] = ''
 
-    pub['journal-title'] = m['PubmedArticleSet']['PubmedArticle']['MedlineCitation']['Article']['Journal']['Title']
+    try:
+        pub['journal'] = make_journal(
+            m['PubmedArticleSet']['PubmedArticle']['MedlineCitation']['Article']['Journal'])
+    except KeyError:
+        pub['journal'] = ''
+
     pub['rights'] = ''
     pub['series'] = ''
     pub['series-text'] = ''
@@ -175,6 +282,22 @@ def perfect_pub(pmid):
             'Volume']
     except KeyError:
         pub['Volume'] = ''
+
+    # MeSH terms
+
+    try:
+        pub['terms'] = make_terms(
+            m['PubmedArticleSet']['PubmedArticle']['MedlineCitation']['MeshHeadingList']['MeshHeading'])
+    except KeyError:
+        pub['terms'] = ''
+
+    # Grant references
+
+    try:
+        pub['grants'] = make_grants(
+            m['PubmedArticleSet']['PubmedArticle']['MedlineCitation']['Article']['GrantList']['Grant'])
+    except KeyError:
+        pub['grants'] = ''
 
     # the attributes below are pubmed attributes
 
