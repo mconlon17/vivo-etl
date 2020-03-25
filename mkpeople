@@ -1,0 +1,4 @@
+#!/bin/zsh
+rmlmapper -m person-map.ttl -o people.ttl -s turtle
+# sed <people.ttl >temp.ttl '10,$s/<http:\/\/vivo.ufl.edu\/individual\/\(.*\)>/data:\1/'
+< people.ttl python3 improve_rdf.py

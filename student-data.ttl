@@ -1,0 +1,291 @@
+@prefix : <http://vivoweb.org/ontology/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix data: <http://vivo.ufl.edu/individual/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uf: <http://vivo.ufl.edu/ontology/vivo-ufl/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<data:authorship/cpb/44889932> a :Authorship;
+  :relates <data:pub/44889932> .
+
+<data:authorship/kshanson/> a :Authorship .
+
+<data:authorship/mconlon/47747774> a :Authorship;
+  :relates <data:pub/47747774> .
+
+<data:authorship/taeber/> a :Authorship .
+
+<data:coirole/cpb/> a :Co-InvestigatorRole .
+
+<data:coirole/kshanson/> a :Co-InvestigatorRole .
+
+<data:coirole/mconlon/GMS9993993> a :Co-InvestigatorRole;
+  :relatedBy <data:grant/GMS9993993> .
+
+<data:coirole/taeber/> a :Co-InvestigatorRole .
+
+<data:concept/Education> a skos:Concept;
+  rdfs:label "Education" .
+
+<data:concept/JavaScript> a skos:Concept;
+  rdfs:label "JavaScript" .
+
+<data:concept/Javascript> a skos:Concept;
+  rdfs:label "Javascript" .
+
+<data:concept/Ontology> a skos:Concept;
+  rdfs:label "Ontology" .
+
+<data:concept/Physics> a skos:Concept;
+  rdfs:label "Physics" .
+
+<data:concept/Trombone> a skos:Concept;
+  rdfs:label "Trombone" .
+
+<data:course/EDA3150> a :Course;
+  uf:commonCourseNumber "EDA3150" .
+
+<data:course/STA5106> a :Course;
+  uf:commonCourseNumber "STA5106" .
+
+<data:date/20031112> a :DateTimeValue;
+  :dateTime "20031112"^^xsd:datetime;
+  :dateTimePrecision :yearMonthDayPrecision .
+
+<data:date/20120112> a :DateTimeValue;
+  :dateTime "20120112"^^xsd:datetime;
+  :dateTimePrecision :yearMonthDayPrecision .
+
+<data:date/20150503> a :DateTimeValue;
+  :dateTime "20150503"^^xsd:datetime;
+  :dateTimePrecision :yearMonthDayPrecision .
+
+<data:date/20190112> a :DateTimeValue;
+  :dateTime "20190112"^^xsd:datetime;
+  :dateTimePrecision :yearMonthDayPrecision .
+
+<data:datetimeinterval/20031112/NA> a :DateTimeInterval;
+  :start <data:date/20031112> .
+
+<data:datetimeinterval/20120112/NA> a :DateTimeInterval;
+  :start <data:date/20120112> .
+
+<data:datetimeinterval/20150503/NA> a :DateTimeInterval;
+  :start <data:date/20150503> .
+
+<data:datetimeinterval/20190112/NA> a :DateTimeInterval;
+  :start <data:date/20190112> .
+
+<data:grant/GMS1191992> a :Grant;
+  :localAwardID "GMS1191992" .
+
+<data:grant/GMS7838883> a :Grant;
+  :localAwardID "GMS7838883" .
+
+<data:grant/GMS9992992> a :Grant;
+  :localAwardID "GMS9992992" .
+
+<data:grant/GMS9993993> a :Grant;
+  :localAwardID "GMS9993993" .
+
+<data:memberrole/cpb/> a :MemberRole .
+
+<data:memberrole/kshanson/GMS9993993> a :MemberRole;
+  :relatedBy <data:grant/GMS9993993> .
+
+<data:memberrole/mconlon/GMS9992992> a :MemberRole;
+  :relatedBy <data:grant/GMS9992992> .
+
+<data:memberrole/taeber/GMS9993993> a :MemberRole;
+  :relatedBy <data:grant/GMS9993993> .
+
+<data:organization/CTSIT> a foaf:Organization;
+  rdfs:label "CTSIT"@en .
+
+<data:organization/HOBI> a foaf:Organization;
+  rdfs:label "HOBI"@en .
+
+<data:person/cpb> a foaf:Person;
+  obo:ARG_2000028 <data:vcard/cpb>;
+  obo:RO_0000053 <data:coirole/cpb/>, <data:memberrole/cpb/>, <data:pirole/cpb/GMS1191992>,
+    <data:teacherrole/cpb/>;
+  uf:gatorlink "cpb";
+  :hasImage ""^^xsd:anyURI;
+  :hasResearchArea <data:concept/Physics>, <data:concept/Trombone>;
+  :overview ""@en;
+  :relatedBy <data:authorship/cpb/44889932>, <data:position/cpb/CTSIT>;
+  rdfs:label "Chris Barnes" .
+
+<data:person/kshanson> a foaf:Person;
+  obo:ARG_2000028 <data:vcard/kshanson>;
+  obo:RO_0000053 <data:coirole/kshanson/>, <data:memberrole/kshanson/GMS9993993>, <data:pirole/kshanson/>,
+    <data:teacherrole/kshanson/EDA3150>;
+  uf:gatorlink "kshanson";
+  :hasImage ""^^xsd:anyURI;
+  :hasResearchArea <data:concept/Education>, <data:concept/Physics>;
+  :overview ""@en;
+  :relatedBy <data:authorship/kshanson/>, <data:position/kshanson/CTSIT>;
+  rdfs:label "Kevin Hanson" .
+
+<data:person/mconlon> a foaf:Person;
+  obo:ARG_2000028 <data:vcard/mconlon>;
+  obo:RO_0000053 <data:coirole/mconlon/GMS9993993>, <data:memberrole/mconlon/GMS9992992>,
+    <data:pirole/mconlon/GMS7838883>, <data:teacherrole/mconlon/STA5106>;
+  uf:gatorlink "mconlon";
+  :hasImage "https://www.gravatar.com/avatar/2b2c890ec3ebad677b46bfcd6f4b05dc"^^xsd:anyURI;
+  :hasResearchArea <data:concept/JavaScript>, <data:concept/Ontology>;
+  :overview "A whole bunch of text here"@en;
+  :relatedBy <data:authorship/mconlon/47747774>, <data:position/mconlon/HOBI>;
+  rdfs:label "Mike Conlon" .
+
+<data:person/taeber> a foaf:Person;
+  obo:ARG_2000028 <data:vcard/taeber>;
+  obo:RO_0000053 <data:coirole/taeber/>, <data:memberrole/taeber/GMS9993993>, <data:pirole/taeber/>,
+    <data:teacherrole/taeber/>;
+  uf:gatorlink "taeber";
+  :hasImage ""^^xsd:anyURI;
+  :hasResearchArea <data:concept/Javascript>;
+  :overview ""@en;
+  :relatedBy <data:authorship/taeber/>, <data:position/taeber/CTSIT>;
+  rdfs:label "Taeber Rapjcak" .
+
+<data:pirole/cpb/GMS1191992> a :PrincipalInvestigatorRole;
+  :relatedBy <data:grant/GMS1191992> .
+
+<data:pirole/kshanson/> a :PrincipalInvestigatorRole .
+
+<data:pirole/mconlon/GMS7838883> a :PrincipalInvestigatorRole;
+  :relatedBy <data:grant/GMS7838883> .
+
+<data:pirole/taeber/> a :PrincipalInvestigatorRole .
+
+<data:position/cpb/CTSIT> a :Position;
+  :dateTimeInterval <data:datetimeinterval/20120112/NA>;
+  :relates <data:organization/CTSIT> .
+
+<data:position/kshanson/CTSIT> a :Position;
+  :dateTimeInterval <data:datetimeinterval/20190112/NA>;
+  :relates <data:organization/CTSIT> .
+
+<data:position/mconlon/HOBI> a :Position;
+  :dateTimeInterval <data:datetimeinterval/20150503/NA>;
+  :relates <data:organization/HOBI> .
+
+<data:position/taeber/CTSIT> a :Position;
+  :dateTimeInterval <data:datetimeinterval/20031112/NA>;
+  :relates <data:organization/CTSIT> .
+
+<data:pub/44889932> a :AcademicArticle;
+  :pmid "44889932"^^xsd:int .
+
+<data:pub/47747774> a :AcademicArticle;
+  :pmid "47747774"^^xsd:int .
+
+<data:teacherrole/cpb/> a :TeacherRole .
+
+<data:teacherrole/kshanson/EDA3150> a :TeacherRole;
+  obo:BFO_0000054 <data:course/EDA3150> .
+
+<data:teacherrole/mconlon/STA5106> a :TeacherRole;
+  obo:BFO_0000054 <data:course/STA5106> .
+
+<data:teacherrole/taeber/> a :TeacherRole .
+
+<data:vcard/cpb> a vcard:Individual;
+  vcard:hasEmail <data:vcard/email/cpb>;
+  vcard:hasTelephone <data:vcard/telephone/cpb>;
+  vcard:hasTitle <data:vcard/title/cpb>;
+  vcard:hasURL <data:vcard/twitter/cpb>, <data:vcard/website/cpb> .
+
+<data:vcard/email/cpb> a vcard:Email;
+  vcard:email "cpb@ufl.edu" .
+
+<data:vcard/email/kshanson> a vcard:Email;
+  vcard:email "kshanson@ufl.edu" .
+
+<data:vcard/email/mconlon> a vcard:Email;
+  vcard:email "mconlon@ufl.edu" .
+
+<data:vcard/email/taeber> a vcard:Email;
+  vcard:email "taeber@ufl.edu" .
+
+<data:vcard/kshanson> a vcard:Individual;
+  vcard:hasEmail <data:vcard/email/kshanson>;
+  vcard:hasTelephone <data:vcard/telephone/kshanson>;
+  vcard:hasTitle <data:vcard/title/kshanson>;
+  vcard:hasURL <data:vcard/twitter/kshanson>, <data:vcard/website/kshanson> .
+
+<data:vcard/mconlon> a vcard:Individual;
+  vcard:hasEmail <data:vcard/email/mconlon>;
+  vcard:hasTelephone <data:vcard/telephone/mconlon>;
+  vcard:hasTitle <data:vcard/title/mconlon>;
+  vcard:hasURL <data:vcard/twitter/mconlon>, <data:vcard/website/mconlon> .
+
+<data:vcard/taeber> a vcard:Individual;
+  vcard:hasEmail <data:vcard/email/taeber>;
+  vcard:hasTelephone <data:vcard/telephone/taeber>;
+  vcard:hasTitle <data:vcard/title/taeber>;
+  vcard:hasURL <data:vcard/twitter/taeber>, <data:vcard/website/taeber> .
+
+<data:vcard/telephone/cpb> a vcard:Telephone;
+  vcard:telephone "" .
+
+<data:vcard/telephone/kshanson> a vcard:Telephone;
+  vcard:telephone "" .
+
+<data:vcard/telephone/mconlon> a vcard:Telephone;
+  vcard:telephone "352-214-7882" .
+
+<data:vcard/telephone/taeber> a vcard:Telephone;
+  vcard:telephone "" .
+
+<data:vcard/title/cpb> a vcard:Title;
+  vcard:title "Director"@en .
+
+<data:vcard/title/kshanson> a vcard:Title;
+  vcard:title "Assistant Director"@en .
+
+<data:vcard/title/mconlon> a vcard:Title;
+  vcard:title "Emeritus Faculty Member"@en .
+
+<data:vcard/title/taeber> a vcard:Title;
+  vcard:title "Developer"@en .
+
+<data:vcard/twitter/cpb> a vcard:URL;
+  rdfs:label "Twitter";
+  vcard:url "https://twitter.com/cpb"^^xsd:anyURI .
+
+<data:vcard/twitter/kshanson> a vcard:URL;
+  rdfs:label "Twitter";
+  vcard:url ""^^xsd:anyURI .
+
+<data:vcard/twitter/mconlon> a vcard:URL;
+  rdfs:label "Twitter";
+  vcard:url "https://twitter.com/mconlon17"^^xsd:anyURI .
+
+<data:vcard/twitter/taeber> a vcard:URL;
+  rdfs:label "Twitter";
+  vcard:url ""^^xsd:anyURI .
+
+<data:vcard/website/cpb> a vcard:URL;
+  rdfs:label "Website";
+  vcard:url "http://vivo.ufl.edu/individual/cpb"^^xsd:anyURI .
+
+<data:vcard/website/kshanson> a vcard:URL;
+  rdfs:label "Website";
+  vcard:url ""^^xsd:anyURI .
+
+<data:vcard/website/mconlon> a vcard:URL;
+  rdfs:label "Website";
+  vcard:url "http://vivo.ufl.edu/individual/mconlon"^^xsd:anyURI .
+
+<data:vcard/website/taeber> a vcard:URL;
+  rdfs:label "Website";
+  vcard:url ""^^xsd:anyURI .

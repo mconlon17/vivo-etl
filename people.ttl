@@ -1,0 +1,291 @@
+@prefix : <http://vivoweb.org/ontology/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix data: <http://vivo.ufl.edu/individual/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uf: <http://vivo.ufl.edu/ontology/vivo-ufl/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://vivo.ufl.edu/individual/authorship/cpb/44889932> a :Authorship;
+  :relates <http://vivo.ufl.edu/individual/pub/44889932> .
+
+<http://vivo.ufl.edu/individual/authorship/kshanson/> a :Authorship .
+
+<http://vivo.ufl.edu/individual/authorship/mconlon/47747774> a :Authorship;
+  :relates <http://vivo.ufl.edu/individual/pub/47747774> .
+
+<http://vivo.ufl.edu/individual/authorship/taeber/> a :Authorship .
+
+<http://vivo.ufl.edu/individual/coirole/cpb/> a :Co-InvestigatorRole .
+
+<http://vivo.ufl.edu/individual/coirole/kshanson/> a :Co-InvestigatorRole .
+
+<http://vivo.ufl.edu/individual/coirole/mconlon/GMS9993993> a :Co-InvestigatorRole;
+  :relatedBy <http://vivo.ufl.edu/individual/grant/GMS9993993> .
+
+<http://vivo.ufl.edu/individual/coirole/taeber/> a :Co-InvestigatorRole .
+
+<http://vivo.ufl.edu/individual/concept/Education> a skos:Concept;
+  rdfs:label "Education" .
+
+<http://vivo.ufl.edu/individual/concept/JavaScript> a skos:Concept;
+  rdfs:label "JavaScript" .
+
+<http://vivo.ufl.edu/individual/concept/Javascript> a skos:Concept;
+  rdfs:label "Javascript" .
+
+<http://vivo.ufl.edu/individual/concept/Ontology> a skos:Concept;
+  rdfs:label "Ontology" .
+
+<http://vivo.ufl.edu/individual/concept/Physics> a skos:Concept;
+  rdfs:label "Physics" .
+
+<http://vivo.ufl.edu/individual/concept/Trombone> a skos:Concept;
+  rdfs:label "Trombone" .
+
+<http://vivo.ufl.edu/individual/course/EDA3150> a :Course;
+  uf:commonCourseNumber "EDA3150" .
+
+<http://vivo.ufl.edu/individual/course/STA5106> a :Course;
+  uf:commonCourseNumber "STA5106" .
+
+<http://vivo.ufl.edu/individual/date/20031112> a :DateTimeValue;
+  :dateTime "20031112"^^xsd:datetime;
+  :dateTimePrecision :yearMonthDayPrecision .
+
+<http://vivo.ufl.edu/individual/date/20120112> a :DateTimeValue;
+  :dateTime "20120112"^^xsd:datetime;
+  :dateTimePrecision :yearMonthDayPrecision .
+
+<http://vivo.ufl.edu/individual/date/20150503> a :DateTimeValue;
+  :dateTime "20150503"^^xsd:datetime;
+  :dateTimePrecision :yearMonthDayPrecision .
+
+<http://vivo.ufl.edu/individual/date/20190112> a :DateTimeValue;
+  :dateTime "20190112"^^xsd:datetime;
+  :dateTimePrecision :yearMonthDayPrecision .
+
+<http://vivo.ufl.edu/individual/datetimeinterval/20031112/NA> a :DateTimeInterval;
+  :start <http://vivo.ufl.edu/individual/date/20031112> .
+
+<http://vivo.ufl.edu/individual/datetimeinterval/20120112/NA> a :DateTimeInterval;
+  :start <http://vivo.ufl.edu/individual/date/20120112> .
+
+<http://vivo.ufl.edu/individual/datetimeinterval/20150503/NA> a :DateTimeInterval;
+  :start <http://vivo.ufl.edu/individual/date/20150503> .
+
+<http://vivo.ufl.edu/individual/datetimeinterval/20190112/NA> a :DateTimeInterval;
+  :start <http://vivo.ufl.edu/individual/date/20190112> .
+
+<http://vivo.ufl.edu/individual/grant/GMS1191992> a :Grant;
+  :localAwardID "GMS1191992" .
+
+<http://vivo.ufl.edu/individual/grant/GMS7838883> a :Grant;
+  :localAwardID "GMS7838883" .
+
+<http://vivo.ufl.edu/individual/grant/GMS9992992> a :Grant;
+  :localAwardID "GMS9992992" .
+
+<http://vivo.ufl.edu/individual/grant/GMS9993993> a :Grant;
+  :localAwardID "GMS9993993" .
+
+<http://vivo.ufl.edu/individual/memberrole/cpb/> a :MemberRole .
+
+<http://vivo.ufl.edu/individual/memberrole/kshanson/GMS9993993> a :MemberRole;
+  :relatedBy <http://vivo.ufl.edu/individual/grant/GMS9993993> .
+
+<http://vivo.ufl.edu/individual/memberrole/mconlon/GMS9992992> a :MemberRole;
+  :relatedBy <http://vivo.ufl.edu/individual/grant/GMS9992992> .
+
+<http://vivo.ufl.edu/individual/memberrole/taeber/GMS9993993> a :MemberRole;
+  :relatedBy <http://vivo.ufl.edu/individual/grant/GMS9993993> .
+
+<http://vivo.ufl.edu/individual/organization/CTSIT> a foaf:Organization;
+  rdfs:label "CTSIT"@en .
+
+<http://vivo.ufl.edu/individual/organization/HOBI> a foaf:Organization;
+  rdfs:label "HOBI"@en .
+
+<http://vivo.ufl.edu/individual/person/cpb> a foaf:Person;
+  obo:ARG_2000028 <http://vivo.ufl.edu/individual/vcard/cpb>;
+  obo:RO_0000053 <http://vivo.ufl.edu/individual/coirole/cpb/>, <http://vivo.ufl.edu/individual/memberrole/cpb/>,
+    <http://vivo.ufl.edu/individual/pirole/cpb/GMS1191992>, <http://vivo.ufl.edu/individual/teacherrole/cpb/>;
+  uf:gatorlink "cpb";
+  :hasImage ""^^xsd:anyURI;
+  :hasResearchArea <http://vivo.ufl.edu/individual/concept/Physics>, <http://vivo.ufl.edu/individual/concept/Trombone>;
+  :overview ""@en;
+  :relatedBy <http://vivo.ufl.edu/individual/authorship/cpb/44889932>, <http://vivo.ufl.edu/individual/position/cpb/CTSIT>;
+  rdfs:label "Chris Barnes" .
+
+<http://vivo.ufl.edu/individual/person/kshanson> a foaf:Person;
+  obo:ARG_2000028 <http://vivo.ufl.edu/individual/vcard/kshanson>;
+  obo:RO_0000053 <http://vivo.ufl.edu/individual/coirole/kshanson/>, <http://vivo.ufl.edu/individual/memberrole/kshanson/GMS9993993>,
+    <http://vivo.ufl.edu/individual/pirole/kshanson/>, <http://vivo.ufl.edu/individual/teacherrole/kshanson/EDA3150>;
+  uf:gatorlink "kshanson";
+  :hasImage ""^^xsd:anyURI;
+  :hasResearchArea <http://vivo.ufl.edu/individual/concept/Education>, <http://vivo.ufl.edu/individual/concept/Physics>;
+  :overview ""@en;
+  :relatedBy <http://vivo.ufl.edu/individual/authorship/kshanson/>, <http://vivo.ufl.edu/individual/position/kshanson/CTSIT>;
+  rdfs:label "Kevin Hanson" .
+
+<http://vivo.ufl.edu/individual/person/mconlon> a foaf:Person;
+  obo:ARG_2000028 <http://vivo.ufl.edu/individual/vcard/mconlon>;
+  obo:RO_0000053 <http://vivo.ufl.edu/individual/coirole/mconlon/GMS9993993>, <http://vivo.ufl.edu/individual/memberrole/mconlon/GMS9992992>,
+    <http://vivo.ufl.edu/individual/pirole/mconlon/GMS7838883>, <http://vivo.ufl.edu/individual/teacherrole/mconlon/STA5106>;
+  uf:gatorlink "mconlon";
+  :hasImage "https://www.gravatar.com/avatar/2b2c890ec3ebad677b46bfcd6f4b05dc"^^xsd:anyURI;
+  :hasResearchArea <http://vivo.ufl.edu/individual/concept/JavaScript>, <http://vivo.ufl.edu/individual/concept/Ontology>;
+  :overview "A whole bunch of text here"@en;
+  :relatedBy <http://vivo.ufl.edu/individual/authorship/mconlon/47747774>, <http://vivo.ufl.edu/individual/position/mconlon/HOBI>;
+  rdfs:label "Mike Conlon" .
+
+<http://vivo.ufl.edu/individual/person/taeber> a foaf:Person;
+  obo:ARG_2000028 <http://vivo.ufl.edu/individual/vcard/taeber>;
+  obo:RO_0000053 <http://vivo.ufl.edu/individual/coirole/taeber/>, <http://vivo.ufl.edu/individual/memberrole/taeber/GMS9993993>,
+    <http://vivo.ufl.edu/individual/pirole/taeber/>, <http://vivo.ufl.edu/individual/teacherrole/taeber/>;
+  uf:gatorlink "taeber";
+  :hasImage ""^^xsd:anyURI;
+  :hasResearchArea <http://vivo.ufl.edu/individual/concept/Javascript>;
+  :overview ""@en;
+  :relatedBy <http://vivo.ufl.edu/individual/authorship/taeber/>, <http://vivo.ufl.edu/individual/position/taeber/CTSIT>;
+  rdfs:label "Taeber Rapjcak" .
+
+<http://vivo.ufl.edu/individual/pirole/cpb/GMS1191992> a :PrincipalInvestigatorRole;
+  :relatedBy <http://vivo.ufl.edu/individual/grant/GMS1191992> .
+
+<http://vivo.ufl.edu/individual/pirole/kshanson/> a :PrincipalInvestigatorRole .
+
+<http://vivo.ufl.edu/individual/pirole/mconlon/GMS7838883> a :PrincipalInvestigatorRole;
+  :relatedBy <http://vivo.ufl.edu/individual/grant/GMS7838883> .
+
+<http://vivo.ufl.edu/individual/pirole/taeber/> a :PrincipalInvestigatorRole .
+
+<http://vivo.ufl.edu/individual/position/cpb/CTSIT> a :Position;
+  :dateTimeInterval <http://vivo.ufl.edu/individual/datetimeinterval/20120112/NA>;
+  :relates <http://vivo.ufl.edu/individual/organization/CTSIT> .
+
+<http://vivo.ufl.edu/individual/position/kshanson/CTSIT> a :Position;
+  :dateTimeInterval <http://vivo.ufl.edu/individual/datetimeinterval/20190112/NA>;
+  :relates <http://vivo.ufl.edu/individual/organization/CTSIT> .
+
+<http://vivo.ufl.edu/individual/position/mconlon/HOBI> a :Position;
+  :dateTimeInterval <http://vivo.ufl.edu/individual/datetimeinterval/20150503/NA>;
+  :relates <http://vivo.ufl.edu/individual/organization/HOBI> .
+
+<http://vivo.ufl.edu/individual/position/taeber/CTSIT> a :Position;
+  :dateTimeInterval <http://vivo.ufl.edu/individual/datetimeinterval/20031112/NA>;
+  :relates <http://vivo.ufl.edu/individual/organization/CTSIT> .
+
+<http://vivo.ufl.edu/individual/pub/44889932> a :AcademicArticle;
+  :pmid "44889932"^^xsd:int .
+
+<http://vivo.ufl.edu/individual/pub/47747774> a :AcademicArticle;
+  :pmid "47747774"^^xsd:int .
+
+<http://vivo.ufl.edu/individual/teacherrole/cpb/> a :TeacherRole .
+
+<http://vivo.ufl.edu/individual/teacherrole/kshanson/EDA3150> a :TeacherRole;
+  obo:BFO_0000054 <http://vivo.ufl.edu/individual/course/EDA3150> .
+
+<http://vivo.ufl.edu/individual/teacherrole/mconlon/STA5106> a :TeacherRole;
+  obo:BFO_0000054 <http://vivo.ufl.edu/individual/course/STA5106> .
+
+<http://vivo.ufl.edu/individual/teacherrole/taeber/> a :TeacherRole .
+
+<http://vivo.ufl.edu/individual/vcard/cpb> a vcard:Individual;
+  vcard:hasEmail <http://vivo.ufl.edu/individual/vcard/email/cpb>;
+  vcard:hasTelephone <http://vivo.ufl.edu/individual/vcard/telephone/cpb>;
+  vcard:hasTitle <http://vivo.ufl.edu/individual/vcard/title/cpb>;
+  vcard:hasURL <http://vivo.ufl.edu/individual/vcard/twitter/cpb>, <http://vivo.ufl.edu/individual/vcard/website/cpb> .
+
+<http://vivo.ufl.edu/individual/vcard/email/cpb> a vcard:Email;
+  vcard:email "cpb@ufl.edu" .
+
+<http://vivo.ufl.edu/individual/vcard/email/kshanson> a vcard:Email;
+  vcard:email "kshanson@ufl.edu" .
+
+<http://vivo.ufl.edu/individual/vcard/email/mconlon> a vcard:Email;
+  vcard:email "mconlon@ufl.edu" .
+
+<http://vivo.ufl.edu/individual/vcard/email/taeber> a vcard:Email;
+  vcard:email "taeber@ufl.edu" .
+
+<http://vivo.ufl.edu/individual/vcard/kshanson> a vcard:Individual;
+  vcard:hasEmail <http://vivo.ufl.edu/individual/vcard/email/kshanson>;
+  vcard:hasTelephone <http://vivo.ufl.edu/individual/vcard/telephone/kshanson>;
+  vcard:hasTitle <http://vivo.ufl.edu/individual/vcard/title/kshanson>;
+  vcard:hasURL <http://vivo.ufl.edu/individual/vcard/twitter/kshanson>, <http://vivo.ufl.edu/individual/vcard/website/kshanson> .
+
+<http://vivo.ufl.edu/individual/vcard/mconlon> a vcard:Individual;
+  vcard:hasEmail <http://vivo.ufl.edu/individual/vcard/email/mconlon>;
+  vcard:hasTelephone <http://vivo.ufl.edu/individual/vcard/telephone/mconlon>;
+  vcard:hasTitle <http://vivo.ufl.edu/individual/vcard/title/mconlon>;
+  vcard:hasURL <http://vivo.ufl.edu/individual/vcard/twitter/mconlon>, <http://vivo.ufl.edu/individual/vcard/website/mconlon> .
+
+<http://vivo.ufl.edu/individual/vcard/taeber> a vcard:Individual;
+  vcard:hasEmail <http://vivo.ufl.edu/individual/vcard/email/taeber>;
+  vcard:hasTelephone <http://vivo.ufl.edu/individual/vcard/telephone/taeber>;
+  vcard:hasTitle <http://vivo.ufl.edu/individual/vcard/title/taeber>;
+  vcard:hasURL <http://vivo.ufl.edu/individual/vcard/twitter/taeber>, <http://vivo.ufl.edu/individual/vcard/website/taeber> .
+
+<http://vivo.ufl.edu/individual/vcard/telephone/cpb> a vcard:Telephone;
+  vcard:telephone "" .
+
+<http://vivo.ufl.edu/individual/vcard/telephone/kshanson> a vcard:Telephone;
+  vcard:telephone "" .
+
+<http://vivo.ufl.edu/individual/vcard/telephone/mconlon> a vcard:Telephone;
+  vcard:telephone "352-214-7882" .
+
+<http://vivo.ufl.edu/individual/vcard/telephone/taeber> a vcard:Telephone;
+  vcard:telephone "" .
+
+<http://vivo.ufl.edu/individual/vcard/title/cpb> a vcard:Title;
+  vcard:title "Director"@en .
+
+<http://vivo.ufl.edu/individual/vcard/title/kshanson> a vcard:Title;
+  vcard:title "Assistant Director"@en .
+
+<http://vivo.ufl.edu/individual/vcard/title/mconlon> a vcard:Title;
+  vcard:title "Emeritus Faculty Member"@en .
+
+<http://vivo.ufl.edu/individual/vcard/title/taeber> a vcard:Title;
+  vcard:title "Developer"@en .
+
+<http://vivo.ufl.edu/individual/vcard/twitter/cpb> a vcard:URL;
+  rdfs:label "Twitter";
+  vcard:url "https://twitter.com/cpb"^^xsd:anyURI .
+
+<http://vivo.ufl.edu/individual/vcard/twitter/kshanson> a vcard:URL;
+  rdfs:label "Twitter";
+  vcard:url ""^^xsd:anyURI .
+
+<http://vivo.ufl.edu/individual/vcard/twitter/mconlon> a vcard:URL;
+  rdfs:label "Twitter";
+  vcard:url "https://twitter.com/mconlon17"^^xsd:anyURI .
+
+<http://vivo.ufl.edu/individual/vcard/twitter/taeber> a vcard:URL;
+  rdfs:label "Twitter";
+  vcard:url ""^^xsd:anyURI .
+
+<http://vivo.ufl.edu/individual/vcard/website/cpb> a vcard:URL;
+  rdfs:label "Website";
+  vcard:url "http://vivo.ufl.edu/individual/cpb"^^xsd:anyURI .
+
+<http://vivo.ufl.edu/individual/vcard/website/kshanson> a vcard:URL;
+  rdfs:label "Website";
+  vcard:url ""^^xsd:anyURI .
+
+<http://vivo.ufl.edu/individual/vcard/website/mconlon> a vcard:URL;
+  rdfs:label "Website";
+  vcard:url "http://vivo.ufl.edu/individual/mconlon"^^xsd:anyURI .
+
+<http://vivo.ufl.edu/individual/vcard/website/taeber> a vcard:URL;
+  rdfs:label "Website";
+  vcard:url ""^^xsd:anyURI .
