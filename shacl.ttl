@@ -1,0 +1,6 @@
+@prefix sh:    <http://www.w3.org/ns/shacl> .
+@prefix ex:    <http://example/com/> .
+
+ex:PersonShape
+  a sh:NodeShape;
+  sh:nodeKind sh:IRI .
