@@ -3,10 +3,14 @@ Experiments with RMLMapper and the creation of triples for VIVO
 
 # Extract
 
-Get data from on-line sources such as PubMed, Dimensions, ORCiD.
+Get data from on-line sources such as PubMed, WoS, Dimensions, ORCiD.
 
 The result of "getting data" should be to return collections of JSON objects
 ready for further processing.
+
+One module per source -- returned objects are the same whether returning from PubMed, 
+Dimensions, or ORCiD -- a pub is a pub.  Zotero and CSL have extensive property models
+for publications.
 
 # Transform
 
