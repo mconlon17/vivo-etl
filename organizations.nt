@@ -1,0 +1,443 @@
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#number_of_results> "99609"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#time_taken> "10"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B09f6afc3X2Dd31eX2D40bbX2Da9baX2D9babf8285f00 .
+_:B09f6afc3X2Dd31eX2D40bbX2Da9baX2D9babf8285f00 <http://my.org/#id> "https://ror.org/04aen0982" .
+_:B09f6afc3X2Dd31eX2D40bbX2Da9baX2D9babf8285f00 <http://my.org/#name> "Centre Africain d'Études Supérieures en Gestion" .
+_:B09f6afc3X2Dd31eX2D40bbX2Da9baX2D9babf8285f00 <http://my.org/#types> "Education" .
+_:B09f6afc3X2Dd31eX2D40bbX2Da9baX2D9babf8285f00 <http://my.org/#links> "https://www.cesag.sn/" .
+_:B09f6afc3X2Dd31eX2D40bbX2Da9baX2D9babf8285f00 <http://my.org/#acronyms> "CESAG" .
+_:B09f6afc3X2Dd31eX2D40bbX2Da9baX2D9babf8285f00 <http://my.org/#status> "active" .
+_:B09f6afc3X2Dd31eX2D40bbX2Da9baX2D9babf8285f00 <http://my.org/#wikipedia_url> "" .
+_:B09f6afc3X2Dd31eX2D40bbX2Da9baX2D9babf8285f00 <http://my.org/#country> _:Bada3a2f5X2D32d2X2D489dX2D9097X2D635090038b71 .
+_:Bada3a2f5X2D32d2X2D489dX2D9097X2D635090038b71 <http://my.org/#country_name> "Senegal" .
+_:Bada3a2f5X2D32d2X2D489dX2D9097X2D635090038b71 <http://my.org/#country_code> "SN" .
+_:B09f6afc3X2Dd31eX2D40bbX2Da9baX2D9babf8285f00 <http://my.org/#external_ids> _:B3c3c20acX2D8bfbX2D472eX2D997aX2D504baa567e1d .
+_:B3c3c20acX2D8bfbX2D472eX2D997aX2D504baa567e1d <http://my.org/#ISNI> _:B06fce4b7X2Ddc5cX2D40c5X2D940fX2D93beff4d1c17 .
+_:B06fce4b7X2Ddc5cX2D40c5X2D940fX2D93beff4d1c17 <http://my.org/#all> "0000 0004 1797 6739" .
+_:B3c3c20acX2D8bfbX2D472eX2D997aX2D504baa567e1d <http://my.org/#Wikidata> _:Bfe90901fX2DeacdX2D4ad1X2Da0d9X2Dea8d35080eec .
+_:Bfe90901fX2DeacdX2D4ad1X2Da0d9X2Dea8d35080eec <http://my.org/#all> "Q30294349" .
+_:B3c3c20acX2D8bfbX2D472eX2D997aX2D504baa567e1d <http://my.org/#GRID> _:B4b3e2929X2D4882X2D4baeX2Da414X2D264c11c5c623 .
+_:B4b3e2929X2D4882X2D4baeX2Da414X2D264c11c5c623 <http://my.org/#preferred> "grid.442750.0" .
+_:B4b3e2929X2D4882X2D4baeX2Da414X2D264c11c5c623 <http://my.org/#all> "grid.442750.0" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B2e005532X2D468cX2D42a9X2D87c1X2De849ce8b95c7 .
+_:B2e005532X2D468cX2D42a9X2D87c1X2De849ce8b95c7 <http://my.org/#id> "https://ror.org/02jwdjd44" .
+_:B2e005532X2D468cX2D42a9X2D87c1X2De849ce8b95c7 <http://my.org/#name> "Institut Universitaire Siantou" .
+_:B2e005532X2D468cX2D42a9X2D87c1X2De849ce8b95c7 <http://my.org/#types> "Education" .
+_:B2e005532X2D468cX2D42a9X2D87c1X2De849ce8b95c7 <http://my.org/#links> "https://siantou-univ.com/" .
+_:B2e005532X2D468cX2D42a9X2D87c1X2De849ce8b95c7 <http://my.org/#aliases> "Complexe Universitaire Siantou" .
+_:B2e005532X2D468cX2D42a9X2D87c1X2De849ce8b95c7 <http://my.org/#status> "active" .
+_:B2e005532X2D468cX2D42a9X2D87c1X2De849ce8b95c7 <http://my.org/#wikipedia_url> "" .
+_:B2e005532X2D468cX2D42a9X2D87c1X2De849ce8b95c7 <http://my.org/#country> _:B425c64b4X2Df238X2D4c8bX2Daf51X2Df26fe92296e2 .
+_:B425c64b4X2Df238X2D4c8bX2Daf51X2Df26fe92296e2 <http://my.org/#country_name> "Cameroon" .
+_:B425c64b4X2Df238X2D4c8bX2Daf51X2Df26fe92296e2 <http://my.org/#country_code> "CM" .
+_:B2e005532X2D468cX2D42a9X2D87c1X2De849ce8b95c7 <http://my.org/#external_ids> _:B57370f11X2D18caX2D458fX2Dbe24X2D1393b34319ce .
+_:B57370f11X2D18caX2D458fX2Dbe24X2D1393b34319ce <http://my.org/#ISNI> _:Bfe2f32acX2Da324X2D46fbX2D8485X2Ddc567288f0b4 .
+_:Bfe2f32acX2Da324X2D46fbX2D8485X2Ddc567288f0b4 <http://my.org/#all> "0000 0004 5345 8605" .
+_:B57370f11X2D18caX2D458fX2Dbe24X2D1393b34319ce <http://my.org/#Wikidata> _:B139d1559X2D40a8X2D4a7fX2D9c79X2D302bd09fe6dc .
+_:B139d1559X2D40a8X2D4a7fX2D9c79X2D302bd09fe6dc <http://my.org/#all> "Q30294350" .
+_:B57370f11X2D18caX2D458fX2Dbe24X2D1393b34319ce <http://my.org/#GRID> _:B524b8484X2D929cX2D456bX2D9bf1X2D925b3d325cec .
+_:B524b8484X2D929cX2D456bX2D9bf1X2D925b3d325cec <http://my.org/#preferred> "grid.442751.1" .
+_:B524b8484X2D929cX2D456bX2D9bf1X2D925b3d325cec <http://my.org/#all> "grid.442751.1" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B0eb2c882X2D704bX2D40acX2Da374X2D0e1e5398e8dc .
+_:B0eb2c882X2D704bX2D40acX2Da374X2D0e1e5398e8dc <http://my.org/#id> "https://ror.org/03q0dfp67" .
+_:B0eb2c882X2D704bX2D40acX2Da374X2D0e1e5398e8dc <http://my.org/#name> "Catholic University of Central Africa" .
+_:B0eb2c882X2D704bX2D40acX2Da374X2D0e1e5398e8dc <http://my.org/#types> "Education" .
+_:B0eb2c882X2D704bX2D40acX2Da374X2D0e1e5398e8dc <http://my.org/#links> "http://www.ucac-icy.net" .
+_:B0eb2c882X2D704bX2D40acX2Da374X2D0e1e5398e8dc <http://my.org/#acronyms> "CUAC" .
+_:B0eb2c882X2D704bX2D40acX2Da374X2D0e1e5398e8dc <http://my.org/#acronyms> "UCAC" .
+_:B0eb2c882X2D704bX2D40acX2Da374X2D0e1e5398e8dc <http://my.org/#status> "active" .
+_:B0eb2c882X2D704bX2D40acX2Da374X2D0e1e5398e8dc <http://my.org/#wikipedia_url> "https://en.wikipedia.org/wiki/Catholic_University_of_Central_Africa" .
+_:B0eb2c882X2D704bX2D40acX2Da374X2D0e1e5398e8dc <http://my.org/#labels> _:Bf048cdafX2D0be3X2D4b5eX2Db944X2Ddf9d06026d14 .
+_:Bf048cdafX2D0be3X2D4b5eX2Db944X2Ddf9d06026d14 <http://my.org/#label> "Université catholique d'afrique centrale" .
+_:Bf048cdafX2D0be3X2D4b5eX2Db944X2Ddf9d06026d14 <http://my.org/#iso639> "fr" .
+_:B0eb2c882X2D704bX2D40acX2Da374X2D0e1e5398e8dc <http://my.org/#country> _:Bd5215b9cX2D5f26X2D402fX2D8f71X2Da446a728c8de .
+_:Bd5215b9cX2D5f26X2D402fX2D8f71X2Da446a728c8de <http://my.org/#country_name> "Cameroon" .
+_:Bd5215b9cX2D5f26X2D402fX2D8f71X2Da446a728c8de <http://my.org/#country_code> "CM" .
+_:B0eb2c882X2D704bX2D40acX2Da374X2D0e1e5398e8dc <http://my.org/#external_ids> _:B4a4ee338X2D211bX2D4291X2D87fbX2Dfabc43bf3b36 .
+_:B4a4ee338X2D211bX2D4291X2D87fbX2Dfabc43bf3b36 <http://my.org/#ISNI> _:B93dd9325X2Df0e7X2D4d10X2Dbc74X2D71c3021d01e2 .
+_:B93dd9325X2Df0e7X2D4d10X2Dbc74X2D71c3021d01e2 <http://my.org/#all> "0000 0001 2168 3603" .
+_:B4a4ee338X2D211bX2D4291X2D87fbX2Dfabc43bf3b36 <http://my.org/#OrgRef> _:Bb2fbc206X2D4958X2D4d21X2Dabd2X2De0b15735a03e .
+_:Bb2fbc206X2D4958X2D4d21X2Dabd2X2De0b15735a03e <http://my.org/#all> "16566731" .
+_:B4a4ee338X2D211bX2D4291X2D87fbX2Dfabc43bf3b36 <http://my.org/#Wikidata> _:B1b49d7ccX2D7007X2D4a43X2D9663X2D3467f522889c .
+_:B1b49d7ccX2D7007X2D4a43X2D9663X2D3467f522889c <http://my.org/#all> "Q1707564" .
+_:B4a4ee338X2D211bX2D4291X2D87fbX2Dfabc43bf3b36 <http://my.org/#GRID> _:Bdc87c5f9X2De204X2D4d71X2Da42bX2D482feea9af8b .
+_:Bdc87c5f9X2De204X2D4d71X2Da42bX2D482feea9af8b <http://my.org/#preferred> "grid.442755.5" .
+_:Bdc87c5f9X2De204X2D4d71X2Da42bX2D482feea9af8b <http://my.org/#all> "grid.442755.5" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B2b3fb2e9X2D46e2X2D4fb3X2D897dX2D53cb6b3c884f .
+_:B2b3fb2e9X2D46e2X2D4fb3X2D897dX2D53cb6b3c884f <http://my.org/#id> "https://ror.org/00x4mq261" .
+_:B2b3fb2e9X2D46e2X2D4fb3X2D897dX2D53cb6b3c884f <http://my.org/#name> "École Nationale d'Administration" .
+_:B2b3fb2e9X2D46e2X2D4fb3X2D897dX2D53cb6b3c884f <http://my.org/#types> "Education" .
+_:B2b3fb2e9X2D46e2X2D4fb3X2D897dX2D53cb6b3c884f <http://my.org/#links> "http://www.ena.sn/" .
+_:B2b3fb2e9X2D46e2X2D4fb3X2D897dX2D53cb6b3c884f <http://my.org/#acronyms> "ENA" .
+_:B2b3fb2e9X2D46e2X2D4fb3X2D897dX2D53cb6b3c884f <http://my.org/#status> "active" .
+_:B2b3fb2e9X2D46e2X2D4fb3X2D897dX2D53cb6b3c884f <http://my.org/#wikipedia_url> "" .
+_:B2b3fb2e9X2D46e2X2D4fb3X2D897dX2D53cb6b3c884f <http://my.org/#country> _:B1a02e4abX2De0b8X2D4d1cX2D81f9X2Dc52c52ebe215 .
+_:B1a02e4abX2De0b8X2D4d1cX2D81f9X2Dc52c52ebe215 <http://my.org/#country_name> "Senegal" .
+_:B1a02e4abX2De0b8X2D4d1cX2D81f9X2Dc52c52ebe215 <http://my.org/#country_code> "SN" .
+_:B2b3fb2e9X2D46e2X2D4fb3X2D897dX2D53cb6b3c884f <http://my.org/#external_ids> _:B5213309eX2De4b9X2D4490X2D86b0X2D892386438131 .
+_:B5213309eX2De4b9X2D4490X2D86b0X2D892386438131 <http://my.org/#ISNI> _:B54a06b4dX2Dd765X2D47d5X2D8edbX2D9d378c470da3 .
+_:B54a06b4dX2Dd765X2D47d5X2D8edbX2D9d378c470da3 <http://my.org/#all> "0000 0004 5345 4292" .
+_:B5213309eX2De4b9X2D4490X2D86b0X2D892386438131 <http://my.org/#Wikidata> _:B356bd7a5X2Dc1fcX2D482aX2D908eX2Ddceba49226b5 .
+_:B356bd7a5X2Dc1fcX2D482aX2D908eX2Ddceba49226b5 <http://my.org/#all> "Q3578068" .
+_:B5213309eX2De4b9X2D4490X2D86b0X2D892386438131 <http://my.org/#GRID> _:B99dea4cdX2D7641X2D42d2X2D8a82X2Dc0a35414ce31 .
+_:B99dea4cdX2D7641X2D42d2X2D8a82X2Dc0a35414ce31 <http://my.org/#preferred> "grid.442757.7" .
+_:B99dea4cdX2D7641X2D42d2X2D8a82X2Dc0a35414ce31 <http://my.org/#all> "grid.442757.7" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B372385d1X2D2a77X2D47a0X2Dbee7X2Dc92041e5d58b .
+_:B372385d1X2D2a77X2D47a0X2Dbee7X2Dc92041e5d58b <http://my.org/#id> "https://ror.org/03fgj8421" .
+_:B372385d1X2D2a77X2D47a0X2Dbee7X2Dc92041e5d58b <http://my.org/#name> "École d'Architecture de Casablanca" .
+_:B372385d1X2D2a77X2D47a0X2Dbee7X2Dc92041e5d58b <http://my.org/#types> "Education" .
+_:B372385d1X2D2a77X2D47a0X2Dbee7X2Dc92041e5d58b <http://my.org/#links> "http://www.ecolearchicasa.com/" .
+_:B372385d1X2D2a77X2D47a0X2Dbee7X2Dc92041e5d58b <http://my.org/#acronyms> "EAC" .
+_:B372385d1X2D2a77X2D47a0X2Dbee7X2Dc92041e5d58b <http://my.org/#status> "active" .
+_:B372385d1X2D2a77X2D47a0X2Dbee7X2Dc92041e5d58b <http://my.org/#wikipedia_url> "" .
+_:B372385d1X2D2a77X2D47a0X2Dbee7X2Dc92041e5d58b <http://my.org/#country> _:B93ed9289X2Db04dX2D4ef0X2Da958X2De7db6ffe42cb .
+_:B93ed9289X2Db04dX2D4ef0X2Da958X2De7db6ffe42cb <http://my.org/#country_name> "Morocco" .
+_:B93ed9289X2Db04dX2D4ef0X2Da958X2De7db6ffe42cb <http://my.org/#country_code> "MA" .
+_:B372385d1X2D2a77X2D47a0X2Dbee7X2Dc92041e5d58b <http://my.org/#external_ids> _:Bad4f9f04X2D67f9X2D4be3X2D82c4X2D049a96a5aceb .
+_:Bad4f9f04X2D67f9X2D4be3X2D82c4X2D049a96a5aceb <http://my.org/#Wikidata> _:B4c6beafeX2D8903X2D46f3X2Db784X2D077d0ab3086e .
+_:B4c6beafeX2D8903X2D46f3X2Db784X2D077d0ab3086e <http://my.org/#all> "Q30294362" .
+_:Bad4f9f04X2D67f9X2D4be3X2D82c4X2D049a96a5aceb <http://my.org/#GRID> _:B407b1946X2Dfd9eX2D40c8X2Dbf83X2D8827d722c303 .
+_:B407b1946X2Dfd9eX2D40c8X2Dbf83X2D8827d722c303 <http://my.org/#preferred> "grid.442767.4" .
+_:B407b1946X2Dfd9eX2D40c8X2Dbf83X2D8827d722c303 <http://my.org/#all> "grid.442767.4" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B671f0badX2D787cX2D4a3bX2Da3d7X2D2018fb43ea1e .
+_:B671f0badX2D787cX2D4a3bX2Da3d7X2D2018fb43ea1e <http://my.org/#id> "https://ror.org/047e7td90" .
+_:B671f0badX2D787cX2D4a3bX2Da3d7X2D2018fb43ea1e <http://my.org/#name> "École Supérieure d'Informatique Appliquée" .
+_:B671f0badX2D787cX2D4a3bX2Da3d7X2D2018fb43ea1e <http://my.org/#types> "Education" .
+_:B671f0badX2D787cX2D4a3bX2Da3d7X2D2018fb43ea1e <http://my.org/#acronyms> "ESIA" .
+_:B671f0badX2D787cX2D4a3bX2Da3d7X2D2018fb43ea1e <http://my.org/#status> "active" .
+_:B671f0badX2D787cX2D4a3bX2Da3d7X2D2018fb43ea1e <http://my.org/#wikipedia_url> "" .
+_:B671f0badX2D787cX2D4a3bX2Da3d7X2D2018fb43ea1e <http://my.org/#country> _:Bd61b6764X2D371cX2D4676X2Dac05X2Dd176dd9d2a9b .
+_:Bd61b6764X2D371cX2D4676X2Dac05X2Dd176dd9d2a9b <http://my.org/#country_name> "Morocco" .
+_:Bd61b6764X2D371cX2D4676X2Dac05X2Dd176dd9d2a9b <http://my.org/#country_code> "MA" .
+_:B671f0badX2D787cX2D4a3bX2Da3d7X2D2018fb43ea1e <http://my.org/#external_ids> _:Bb6b581efX2D5351X2D4087X2Daf31X2D02fbb853626b .
+_:Bb6b581efX2D5351X2D4087X2Daf31X2D02fbb853626b <http://my.org/#Wikidata> _:B1402f97cX2D464aX2D41b1X2Dac55X2Dd109ea94a02e .
+_:B1402f97cX2D464aX2D41b1X2Dac55X2Dd109ea94a02e <http://my.org/#all> "Q30294364" .
+_:Bb6b581efX2D5351X2D4087X2Daf31X2D02fbb853626b <http://my.org/#GRID> _:B323316a2X2Da16fX2D44edX2Da66fX2D5a1d09f176da .
+_:B323316a2X2Da16fX2D44edX2Da66fX2D5a1d09f176da <http://my.org/#preferred> "grid.442769.a" .
+_:B323316a2X2Da16fX2D44edX2Da66fX2D5a1d09f176da <http://my.org/#all> "grid.442769.a" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B71e61124X2Db2cbX2D4801X2Da6b5X2D84f08c84b4ba .
+_:B71e61124X2Db2cbX2D4801X2Da6b5X2D84f08c84b4ba <http://my.org/#id> "https://ror.org/01yt1q538" .
+_:B71e61124X2Db2cbX2D4801X2Da6b5X2D84f08c84b4ba <http://my.org/#name> "Institut International des Sciences et de Technologie" .
+_:B71e61124X2Db2cbX2D4801X2Da6b5X2D84f08c84b4ba <http://my.org/#types> "Education" .
+_:B71e61124X2Db2cbX2D4801X2Da6b5X2D84f08c84b4ba <http://my.org/#links> "http://www.iist-hilight.com/" .
+_:B71e61124X2Db2cbX2D4801X2Da6b5X2D84f08c84b4ba <http://my.org/#acronyms> "IIST" .
+_:B71e61124X2Db2cbX2D4801X2Da6b5X2D84f08c84b4ba <http://my.org/#status> "active" .
+_:B71e61124X2Db2cbX2D4801X2Da6b5X2D84f08c84b4ba <http://my.org/#wikipedia_url> "" .
+_:B71e61124X2Db2cbX2D4801X2Da6b5X2D84f08c84b4ba <http://my.org/#country> _:B14b65f60X2D7403X2D44a3X2Da8e3X2Db84c0adbac7e .
+_:B14b65f60X2D7403X2D44a3X2Da8e3X2Db84c0adbac7e <http://my.org/#country_name> "Senegal" .
+_:B14b65f60X2D7403X2D44a3X2Da8e3X2Db84c0adbac7e <http://my.org/#country_code> "SN" .
+_:B71e61124X2Db2cbX2D4801X2Da6b5X2D84f08c84b4ba <http://my.org/#external_ids> _:B2c6c2cf9X2D64c1X2D439eX2Daff1X2D3ec1798c0313 .
+_:B2c6c2cf9X2D64c1X2D439eX2Daff1X2D3ec1798c0313 <http://my.org/#Wikidata> _:Bf25078b2X2D9ee3X2D4f45X2DbbaaX2D0f82df478a0a .
+_:Bf25078b2X2D9ee3X2D4f45X2DbbaaX2D0f82df478a0a <http://my.org/#all> "Q30294367" .
+_:B2c6c2cf9X2D64c1X2D439eX2Daff1X2D3ec1798c0313 <http://my.org/#GRID> _:B8ae2daadX2D3ad7X2D4339X2Da558X2De25f0a7866d3 .
+_:B8ae2daadX2D3ad7X2D4339X2Da558X2De25f0a7866d3 <http://my.org/#preferred> "grid.442772.0" .
+_:B8ae2daadX2D3ad7X2D4339X2Da558X2De25f0a7866d3 <http://my.org/#all> "grid.442772.0" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B732407c8X2D779eX2D4338X2Db27aX2D057dd6858f22 .
+_:B732407c8X2D779eX2D4338X2Db27aX2D057dd6858f22 <http://my.org/#id> "https://ror.org/01ddvnr27" .
+_:B732407c8X2D779eX2D4338X2Db27aX2D057dd6858f22 <http://my.org/#name> "École Supérieure de Psychologie" .
+_:B732407c8X2D779eX2D4338X2Db27aX2D057dd6858f22 <http://my.org/#types> "Education" .
+_:B732407c8X2D779eX2D4338X2Db27aX2D057dd6858f22 <http://my.org/#links> "http://www.psychosup.net/" .
+_:B732407c8X2D779eX2D4338X2Db27aX2D057dd6858f22 <http://my.org/#acronyms> "ESP" .
+_:B732407c8X2D779eX2D4338X2Db27aX2D057dd6858f22 <http://my.org/#status> "active" .
+_:B732407c8X2D779eX2D4338X2Db27aX2D057dd6858f22 <http://my.org/#wikipedia_url> "" .
+_:B732407c8X2D779eX2D4338X2Db27aX2D057dd6858f22 <http://my.org/#country> _:Bfb32f5b6X2De736X2D40e2X2D8b95X2D7e1332ba528b .
+_:Bfb32f5b6X2De736X2D40e2X2D8b95X2D7e1332ba528b <http://my.org/#country_name> "Morocco" .
+_:Bfb32f5b6X2De736X2D40e2X2D8b95X2D7e1332ba528b <http://my.org/#country_code> "MA" .
+_:B732407c8X2D779eX2D4338X2Db27aX2D057dd6858f22 <http://my.org/#external_ids> _:B49de4bc6X2D158eX2D488dX2D8449X2Da5c52635f24c .
+_:B49de4bc6X2D158eX2D488dX2D8449X2Da5c52635f24c <http://my.org/#Wikidata> _:Bb9aec5a4X2D59bbX2D417bX2D92c0X2D5cf3607b5535 .
+_:Bb9aec5a4X2D59bbX2D417bX2D92c0X2D5cf3607b5535 <http://my.org/#all> "Q30294374" .
+_:B49de4bc6X2D158eX2D488dX2D8449X2Da5c52635f24c <http://my.org/#GRID> _:B6153b5d1X2D3ef6X2D4b67X2D8b30X2Dd6488fdb1a49 .
+_:B6153b5d1X2D3ef6X2D4b67X2D8b30X2Dd6488fdb1a49 <http://my.org/#preferred> "grid.442782.f" .
+_:B6153b5d1X2D3ef6X2D4b67X2D8b30X2Dd6488fdb1a49 <http://my.org/#all> "grid.442782.f" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:Bd678e163X2D7e8bX2D4f56X2Dafc7X2Dbafd75fe1eaf .
+_:Bd678e163X2D7e8bX2D4f56X2Dafc7X2Dbafd75fe1eaf <http://my.org/#id> "https://ror.org/04h86q851" .
+_:Bd678e163X2D7e8bX2D4f56X2Dafc7X2Dbafd75fe1eaf <http://my.org/#name> "École Supérieure Internationale de Gestion" .
+_:Bd678e163X2D7e8bX2D4f56X2Dafc7X2Dbafd75fe1eaf <http://my.org/#types> "Education" .
+_:Bd678e163X2D7e8bX2D4f56X2Dafc7X2Dbafd75fe1eaf <http://my.org/#links> "http://www.esigmaroc.com/" .
+_:Bd678e163X2D7e8bX2D4f56X2Dafc7X2Dbafd75fe1eaf <http://my.org/#acronyms> "ESIG" .
+_:Bd678e163X2D7e8bX2D4f56X2Dafc7X2Dbafd75fe1eaf <http://my.org/#status> "active" .
+_:Bd678e163X2D7e8bX2D4f56X2Dafc7X2Dbafd75fe1eaf <http://my.org/#wikipedia_url> "" .
+_:Bd678e163X2D7e8bX2D4f56X2Dafc7X2Dbafd75fe1eaf <http://my.org/#country> _:Bb6fd05f8X2Dda0fX2D4554X2Dbc0aX2D2717129101fd .
+_:Bb6fd05f8X2Dda0fX2D4554X2Dbc0aX2D2717129101fd <http://my.org/#country_name> "Morocco" .
+_:Bb6fd05f8X2Dda0fX2D4554X2Dbc0aX2D2717129101fd <http://my.org/#country_code> "MA" .
+_:Bd678e163X2D7e8bX2D4f56X2Dafc7X2Dbafd75fe1eaf <http://my.org/#external_ids> _:Be4f56f50X2D26e9X2D48a1X2DbdacX2D3f6063013888 .
+_:Be4f56f50X2D26e9X2D48a1X2DbdacX2D3f6063013888 <http://my.org/#GRID> _:B7cc38776X2D72eaX2D466fX2D86cdX2D6c36ef8b79bb .
+_:B7cc38776X2D72eaX2D466fX2D86cdX2D6c36ef8b79bb <http://my.org/#preferred> "grid.442786.b" .
+_:B7cc38776X2D72eaX2D466fX2D86cdX2D6c36ef8b79bb <http://my.org/#all> "grid.442786.b" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:Bfde8ab36X2De4b0X2D4851X2D80ffX2D4872c41bd938 .
+_:Bfde8ab36X2De4b0X2D4851X2D80ffX2D4872c41bd938 <http://my.org/#id> "https://ror.org/02kpg0b77" .
+_:Bfde8ab36X2De4b0X2D4851X2D80ffX2D4872c41bd938 <http://my.org/#name> "Institut des Hautes Etudes Bancaires, Financières et Managériale" .
+_:Bfde8ab36X2De4b0X2D4851X2D80ffX2D4872c41bd938 <http://my.org/#types> "Education" .
+_:Bfde8ab36X2De4b0X2D4851X2D80ffX2D4872c41bd938 <http://my.org/#links> "https://hbfmaroc.com/" .
+_:Bfde8ab36X2De4b0X2D4851X2D80ffX2D4872c41bd938 <http://my.org/#acronyms> "HBF" .
+_:Bfde8ab36X2De4b0X2D4851X2D80ffX2D4872c41bd938 <http://my.org/#status> "active" .
+_:Bfde8ab36X2De4b0X2D4851X2D80ffX2D4872c41bd938 <http://my.org/#wikipedia_url> "" .
+_:Bfde8ab36X2De4b0X2D4851X2D80ffX2D4872c41bd938 <http://my.org/#country> _:Bb78901a0X2Daac7X2D4fccX2Da8cdX2Dd0ba031c3eff .
+_:Bb78901a0X2Daac7X2D4fccX2Da8cdX2Dd0ba031c3eff <http://my.org/#country_name> "Morocco" .
+_:Bb78901a0X2Daac7X2D4fccX2Da8cdX2Dd0ba031c3eff <http://my.org/#country_code> "MA" .
+_:Bfde8ab36X2De4b0X2D4851X2D80ffX2D4872c41bd938 <http://my.org/#external_ids> _:Bf1c06ed0X2Da50fX2D462fX2Da127X2D9f9ac61a0e66 .
+_:Bf1c06ed0X2Da50fX2D462fX2Da127X2D9f9ac61a0e66 <http://my.org/#Wikidata> _:B55b302a7X2D9decX2D4094X2Da1e6X2D97677b77320a .
+_:B55b302a7X2D9decX2D4094X2Da1e6X2D97677b77320a <http://my.org/#all> "Q30294378" .
+_:Bf1c06ed0X2Da50fX2D462fX2Da127X2D9f9ac61a0e66 <http://my.org/#GRID> _:B2cd9449bX2D8380X2D4b75X2D9286X2D8c9c41fb2966 .
+_:B2cd9449bX2D8380X2D4b75X2D9286X2D8c9c41fb2966 <http://my.org/#preferred> "grid.442787.a" .
+_:B2cd9449bX2D8380X2D4b75X2D9286X2D8c9c41fb2966 <http://my.org/#all> "grid.442787.a" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B70f1e45eX2D4d1dX2D486fX2D9b4bX2Da398cb525078 .
+_:B70f1e45eX2D4d1dX2D486fX2D9b4bX2Da398cb525078 <http://my.org/#id> "https://ror.org/035rgqg63" .
+_:B70f1e45eX2D4d1dX2D486fX2D9b4bX2Da398cb525078 <http://my.org/#name> "Institut National Supérieur des Sciences et Techniques d'Abéché" .
+_:B70f1e45eX2D4d1dX2D486fX2D9b4bX2Da398cb525078 <http://my.org/#types> "Education" .
+_:B70f1e45eX2D4d1dX2D486fX2D9b4bX2Da398cb525078 <http://my.org/#links> "http://www.iusta-tchad.org/" .
+_:B70f1e45eX2D4d1dX2D486fX2D9b4bX2Da398cb525078 <http://my.org/#aliases> "Institut universitaire des sciences et techniques d'Abéché" .
+_:B70f1e45eX2D4d1dX2D486fX2D9b4bX2Da398cb525078 <http://my.org/#acronyms> "INSTA" .
+_:B70f1e45eX2D4d1dX2D486fX2D9b4bX2Da398cb525078 <http://my.org/#acronyms> "IUSTA" .
+_:B70f1e45eX2D4d1dX2D486fX2D9b4bX2Da398cb525078 <http://my.org/#status> "active" .
+_:B70f1e45eX2D4d1dX2D486fX2D9b4bX2Da398cb525078 <http://my.org/#wikipedia_url> "" .
+_:B70f1e45eX2D4d1dX2D486fX2D9b4bX2Da398cb525078 <http://my.org/#country> _:B162cd7d7X2D7835X2D4d9dX2D96f7X2Dd7c88156fb03 .
+_:B162cd7d7X2D7835X2D4d9dX2D96f7X2Dd7c88156fb03 <http://my.org/#country_name> "Chad" .
+_:B162cd7d7X2D7835X2D4d9dX2D96f7X2Dd7c88156fb03 <http://my.org/#country_code> "TD" .
+_:B70f1e45eX2D4d1dX2D486fX2D9b4bX2Da398cb525078 <http://my.org/#external_ids> _:B68e7ac00X2Dde98X2D469bX2DbadfX2D2c87e9bea99e .
+_:B68e7ac00X2Dde98X2D469bX2DbadfX2D2c87e9bea99e <http://my.org/#Wikidata> _:B5481e899X2De58aX2D4d62X2Da951X2D452cae5630ff .
+_:B5481e899X2De58aX2D4d62X2Da951X2D452cae5630ff <http://my.org/#all> "Q3152764" .
+_:B68e7ac00X2Dde98X2D469bX2DbadfX2D2c87e9bea99e <http://my.org/#GRID> _:B7df32ab7X2DdabaX2D48c8X2Db731X2Da5e1fc1a5365 .
+_:B7df32ab7X2DdabaX2D48c8X2Db731X2Da5e1fc1a5365 <http://my.org/#preferred> "grid.442788.5" .
+_:B7df32ab7X2DdabaX2D48c8X2Db731X2Da5e1fc1a5365 <http://my.org/#all> "grid.442788.5" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B4e7086d6X2D71f3X2D424dX2D81efX2Da4ef8086bfc5 .
+_:B4e7086d6X2D71f3X2D424dX2D81efX2Da4ef8086bfc5 <http://my.org/#id> "https://ror.org/04wx25x02" .
+_:B4e7086d6X2D71f3X2D424dX2D81efX2Da4ef8086bfc5 <http://my.org/#name> "École des Sciences de I'information" .
+_:B4e7086d6X2D71f3X2D424dX2D81efX2Da4ef8086bfc5 <http://my.org/#types> "Education" .
+_:B4e7086d6X2D71f3X2D424dX2D81efX2Da4ef8086bfc5 <http://my.org/#links> "http://www.esi.ac.ma/" .
+_:B4e7086d6X2D71f3X2D424dX2D81efX2Da4ef8086bfc5 <http://my.org/#acronyms> "ESI" .
+_:B4e7086d6X2D71f3X2D424dX2D81efX2Da4ef8086bfc5 <http://my.org/#status> "active" .
+_:B4e7086d6X2D71f3X2D424dX2D81efX2Da4ef8086bfc5 <http://my.org/#wikipedia_url> "" .
+_:B4e7086d6X2D71f3X2D424dX2D81efX2Da4ef8086bfc5 <http://my.org/#labels> _:B48a5dcb5X2D9eb2X2D492fX2DaeaaX2Deda034b58402 .
+_:B48a5dcb5X2D9eb2X2D492fX2DaeaaX2Deda034b58402 <http://my.org/#label> "مدرسة علوم المعلومات" .
+_:B48a5dcb5X2D9eb2X2D492fX2DaeaaX2Deda034b58402 <http://my.org/#iso639> "ar" .
+_:B4e7086d6X2D71f3X2D424dX2D81efX2Da4ef8086bfc5 <http://my.org/#country> _:B50a069d1X2D2cdfX2D4367X2D80d6X2D7c71fbed1105 .
+_:B50a069d1X2D2cdfX2D4367X2D80d6X2D7c71fbed1105 <http://my.org/#country_name> "Morocco" .
+_:B50a069d1X2D2cdfX2D4367X2D80d6X2D7c71fbed1105 <http://my.org/#country_code> "MA" .
+_:B4e7086d6X2D71f3X2D424dX2D81efX2Da4ef8086bfc5 <http://my.org/#external_ids> _:Bd45c6f09X2Dbeb1X2D42feX2Dbe23X2D19847dd5a70b .
+_:Bd45c6f09X2Dbeb1X2D42feX2Dbe23X2D19847dd5a70b <http://my.org/#ISNI> _:B22e88927X2De242X2D4c39X2Da80cX2D687138cef509 .
+_:B22e88927X2De242X2D4c39X2Da80cX2D687138cef509 <http://my.org/#all> "0000 0001 2184 2416" .
+_:Bd45c6f09X2Dbeb1X2D42feX2Dbe23X2D19847dd5a70b <http://my.org/#Wikidata> _:B4559afc0X2Db5d2X2D45a4X2Da260X2D11eeead0e376 .
+_:B4559afc0X2Db5d2X2D45a4X2Da260X2D11eeead0e376 <http://my.org/#all> "Q3577955" .
+_:Bd45c6f09X2Dbeb1X2D42feX2Dbe23X2D19847dd5a70b <http://my.org/#GRID> _:Bf1fea8c1X2Dd539X2D437dX2Dae52X2Da569f655b718 .
+_:Bf1fea8c1X2Dd539X2D437dX2Dae52X2Da569f655b718 <http://my.org/#preferred> "grid.442789.4" .
+_:Bf1fea8c1X2Dd539X2D437dX2Dae52X2Da569f655b718 <http://my.org/#all> "grid.442789.4" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B4318ab7dX2Dcc94X2D4485X2D8172X2D161e4b444256 .
+_:B4318ab7dX2Dcc94X2D4485X2D8172X2D161e4b444256 <http://my.org/#id> "https://ror.org/00m4aft17" .
+_:B4318ab7dX2Dcc94X2D4485X2D8172X2D161e4b444256 <http://my.org/#name> "Université Adam Barka d'Abéché" .
+_:B4318ab7dX2Dcc94X2D4485X2D8172X2D161e4b444256 <http://my.org/#types> "Education" .
+_:B4318ab7dX2Dcc94X2D4485X2D8172X2D161e4b444256 <http://my.org/#acronyms> "UNABA" .
+_:B4318ab7dX2Dcc94X2D4485X2D8172X2D161e4b444256 <http://my.org/#status> "active" .
+_:B4318ab7dX2Dcc94X2D4485X2D8172X2D161e4b444256 <http://my.org/#wikipedia_url> "" .
+_:B4318ab7dX2Dcc94X2D4485X2D8172X2D161e4b444256 <http://my.org/#country> _:B4bfb23f6X2Db157X2D4c15X2Da117X2D7d91bb9d8248 .
+_:B4bfb23f6X2Db157X2D4c15X2Da117X2D7d91bb9d8248 <http://my.org/#country_name> "Chad" .
+_:B4bfb23f6X2Db157X2D4c15X2Da117X2D7d91bb9d8248 <http://my.org/#country_code> "TD" .
+_:B4318ab7dX2Dcc94X2D4485X2D8172X2D161e4b444256 <http://my.org/#external_ids> _:B76e1cd0eX2D772aX2D4518X2Da69cX2D06337fa792bb .
+_:B76e1cd0eX2D772aX2D4518X2Da69cX2D06337fa792bb <http://my.org/#Wikidata> _:B8bb6643fX2D638bX2D4adeX2D9b87X2D0c865a05b145 .
+_:B8bb6643fX2D638bX2D4adeX2D9b87X2D0c865a05b145 <http://my.org/#all> "Q3551366" .
+_:B76e1cd0eX2D772aX2D4518X2Da69cX2D06337fa792bb <http://my.org/#GRID> _:Bf9a843e4X2Dcf4cX2D478bX2D9621X2De1267cae34ff .
+_:Bf9a843e4X2Dcf4cX2D478bX2D9621X2De1267cae34ff <http://my.org/#preferred> "grid.442790.c" .
+_:Bf9a843e4X2Dcf4cX2D478bX2D9621X2De1267cae34ff <http://my.org/#all> "grid.442790.c" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B10713020X2Db309X2D4be1X2D884fX2Daf878444c18d .
+_:B10713020X2Db309X2D4be1X2D884fX2Daf878444c18d <http://my.org/#id> "https://ror.org/0158yx659" .
+_:B10713020X2Db309X2D4be1X2D884fX2Daf878444c18d <http://my.org/#name> "Groupe Institut Des Hautes Etudes Economiques Et Sociales" .
+_:B10713020X2Db309X2D4be1X2D884fX2Daf878444c18d <http://my.org/#types> "Education" .
+_:B10713020X2Db309X2D4be1X2D884fX2Daf878444c18d <http://my.org/#links> "http://ecolesuperieure.ma/ecole/ihees/" .
+_:B10713020X2Db309X2D4be1X2D884fX2Daf878444c18d <http://my.org/#acronyms> "IHEES" .
+_:B10713020X2Db309X2D4be1X2D884fX2Daf878444c18d <http://my.org/#status> "active" .
+_:B10713020X2Db309X2D4be1X2D884fX2Daf878444c18d <http://my.org/#wikipedia_url> "" .
+_:B10713020X2Db309X2D4be1X2D884fX2Daf878444c18d <http://my.org/#country> _:B3a2da80aX2Df66bX2D44e0X2D969fX2D8e1dcb5cca80 .
+_:B3a2da80aX2Df66bX2D44e0X2D969fX2D8e1dcb5cca80 <http://my.org/#country_name> "Morocco" .
+_:B3a2da80aX2Df66bX2D44e0X2D969fX2D8e1dcb5cca80 <http://my.org/#country_code> "MA" .
+_:B10713020X2Db309X2D4be1X2D884fX2Daf878444c18d <http://my.org/#external_ids> _:B094b07d4X2D9627X2D49b0X2Db4a0X2D2bc9c5ffea4a .
+_:B094b07d4X2D9627X2D49b0X2Db4a0X2D2bc9c5ffea4a <http://my.org/#Wikidata> _:Bd734d259X2Dfe0aX2D4a92X2Db4d1X2Dec5be132bfed .
+_:Bd734d259X2Dfe0aX2D4a92X2Db4d1X2Dec5be132bfed <http://my.org/#all> "Q30294382" .
+_:B094b07d4X2D9627X2D49b0X2Db4a0X2D2bc9c5ffea4a <http://my.org/#GRID> _:B7ee44d21X2Dac67X2D4f5eX2Da0cbX2Df0dee0cc1079 .
+_:B7ee44d21X2Dac67X2D4f5eX2Da0cbX2Df0dee0cc1079 <http://my.org/#preferred> "grid.442796.a" .
+_:B7ee44d21X2Dac67X2D4f5eX2Da0cbX2Df0dee0cc1079 <http://my.org/#all> "grid.442796.a" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B2c33f41eX2D4c66X2D4f30X2Db671X2D71276d5cd84f .
+_:B2c33f41eX2D4c66X2D4f30X2Db671X2D71276d5cd84f <http://my.org/#id> "https://ror.org/05cedyx57" .
+_:B2c33f41eX2D4c66X2D4f30X2Db671X2D71276d5cd84f <http://my.org/#name> "Institut Supérieur de Commerce et d'Administration des Entreprises" .
+_:B2c33f41eX2D4c66X2D4f30X2Db671X2D71276d5cd84f <http://my.org/#types> "Education" .
+_:B2c33f41eX2D4c66X2D4f30X2Db671X2D71276d5cd84f <http://my.org/#links> "https://www.groupeiscae.ma/" .
+_:B2c33f41eX2D4c66X2D4f30X2Db671X2D71276d5cd84f <http://my.org/#acronyms> "ISCAE" .
+_:B2c33f41eX2D4c66X2D4f30X2Db671X2D71276d5cd84f <http://my.org/#status> "active" .
+_:B2c33f41eX2D4c66X2D4f30X2Db671X2D71276d5cd84f <http://my.org/#wikipedia_url> "https://en.wikipedia.org/wiki/ISCAE" .
+_:B2c33f41eX2D4c66X2D4f30X2Db671X2D71276d5cd84f <http://my.org/#country> _:Bf7390404X2D9830X2D435fX2Db2afX2D4aea508f8141 .
+_:Bf7390404X2D9830X2D435fX2Db2afX2D4aea508f8141 <http://my.org/#country_name> "Morocco" .
+_:Bf7390404X2D9830X2D435fX2Db2afX2D4aea508f8141 <http://my.org/#country_code> "MA" .
+_:B2c33f41eX2D4c66X2D4f30X2Db671X2D71276d5cd84f <http://my.org/#external_ids> _:B0dc9264bX2Dec4bX2D40b0X2Db26fX2D6525b48393ae .
+_:B0dc9264bX2Dec4bX2D40b0X2Db26fX2D6525b48393ae <http://my.org/#Wikidata> _:B8f84cc45X2D273cX2D4aa9X2D9d4fX2D39434ea89c86 .
+_:B8f84cc45X2D273cX2D4aa9X2D9d4fX2D39434ea89c86 <http://my.org/#all> "Q30294387" .
+_:B0dc9264bX2Dec4bX2D40b0X2Db26fX2D6525b48393ae <http://my.org/#GRID> _:B4e73b310X2Dc4adX2D4f69X2Db5e0X2D80943fe97105 .
+_:B4e73b310X2Dc4adX2D4f69X2Db5e0X2D80943fe97105 <http://my.org/#preferred> "grid.442801.b" .
+_:B4e73b310X2Dc4adX2D4f69X2Db5e0X2D80943fe97105 <http://my.org/#all> "grid.442801.b" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B3e3bfff6X2D4ff0X2D4eb6X2D864bX2D15a7a416c33b .
+_:B3e3bfff6X2D4ff0X2D4eb6X2D864bX2D15a7a416c33b <http://my.org/#id> "https://ror.org/00n7n3773" .
+_:B3e3bfff6X2D4ff0X2D4eb6X2D864bX2D15a7a416c33b <http://my.org/#name> "National School of Architecture" .
+_:B3e3bfff6X2D4ff0X2D4eb6X2D864bX2D15a7a416c33b <http://my.org/#types> "Education" .
+_:B3e3bfff6X2D4ff0X2D4eb6X2D864bX2D15a7a416c33b <http://my.org/#links> "http://archi.ac.ma/" .
+_:B3e3bfff6X2D4ff0X2D4eb6X2D864bX2D15a7a416c33b <http://my.org/#acronyms> "ENA" .
+_:B3e3bfff6X2D4ff0X2D4eb6X2D864bX2D15a7a416c33b <http://my.org/#status> "active" .
+_:B3e3bfff6X2D4ff0X2D4eb6X2D864bX2D15a7a416c33b <http://my.org/#wikipedia_url> "" .
+_:B3e3bfff6X2D4ff0X2D4eb6X2D864bX2D15a7a416c33b <http://my.org/#labels> _:B1206c02fX2D8736X2D4981X2D82b8X2Db2c77184f3d8 .
+_:B1206c02fX2D8736X2D4981X2D82b8X2Db2c77184f3d8 <http://my.org/#label> "Ecole Nationale d'Architecture" .
+_:B1206c02fX2D8736X2D4981X2D82b8X2Db2c77184f3d8 <http://my.org/#iso639> "fr" .
+_:B3e3bfff6X2D4ff0X2D4eb6X2D864bX2D15a7a416c33b <http://my.org/#labels> _:B5a05ab68X2D5e02X2D413aX2D8d87X2Dc6e8828224fc .
+_:B5a05ab68X2D5e02X2D413aX2D8d87X2Dc6e8828224fc <http://my.org/#label> "المدرسة الوطنية للهندسة المعمارية" .
+_:B5a05ab68X2D5e02X2D413aX2D8d87X2Dc6e8828224fc <http://my.org/#iso639> "ar" .
+_:B3e3bfff6X2D4ff0X2D4eb6X2D864bX2D15a7a416c33b <http://my.org/#country> _:Beae03093X2D9dfeX2D4a9bX2D8cd4X2D3c5645dc2c00 .
+_:Beae03093X2D9dfeX2D4a9bX2D8cd4X2D3c5645dc2c00 <http://my.org/#country_name> "Morocco" .
+_:Beae03093X2D9dfeX2D4a9bX2D8cd4X2D3c5645dc2c00 <http://my.org/#country_code> "MA" .
+_:B3e3bfff6X2D4ff0X2D4eb6X2D864bX2D15a7a416c33b <http://my.org/#external_ids> _:B49448dd3X2D57fbX2D45f9X2Db5aeX2D7e5cda54bb5e .
+_:B49448dd3X2D57fbX2D45f9X2Db5aeX2D7e5cda54bb5e <http://my.org/#ISNI> _:B5a3f2d61X2D9b4eX2D4228X2Db75dX2D6921ef0045b3 .
+_:B5a3f2d61X2D9b4eX2D4228X2Db75dX2D6921ef0045b3 <http://my.org/#all> "0000 0004 1773 4262" .
+_:B49448dd3X2D57fbX2D45f9X2Db5aeX2D7e5cda54bb5e <http://my.org/#Wikidata> _:Bdda37439X2D34bcX2D4738X2D928cX2Dd2336f4a055d .
+_:Bdda37439X2D34bcX2D4738X2D928cX2Dd2336f4a055d <http://my.org/#all> "Q30294394" .
+_:B49448dd3X2D57fbX2D45f9X2Db5aeX2D7e5cda54bb5e <http://my.org/#GRID> _:Bdfe83f7aX2D5400X2D437bX2D9628X2Dfa6cb0b8f076 .
+_:Bdfe83f7aX2D5400X2D437bX2D9628X2Dfa6cb0b8f076 <http://my.org/#preferred> "grid.442809.3" .
+_:Bdfe83f7aX2D5400X2D437bX2D9628X2Dfa6cb0b8f076 <http://my.org/#all> "grid.442809.3" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:Bfe06a2beX2Ddb55X2D49ecX2D8efbX2D6a65bf388610 .
+_:Bfe06a2beX2Ddb55X2D49ecX2D8efbX2D6a65bf388610 <http://my.org/#id> "https://ror.org/00ychtq28" .
+_:Bfe06a2beX2Ddb55X2D49ecX2D8efbX2D6a65bf388610 <http://my.org/#name> "École des Hautes Études Commerciales" .
+_:Bfe06a2beX2Ddb55X2D49ecX2D8efbX2D6a65bf388610 <http://my.org/#types> "Education" .
+_:Bfe06a2beX2Ddb55X2D49ecX2D8efbX2D6a65bf388610 <http://my.org/#links> "https://hec.ac.ma/" .
+_:Bfe06a2beX2Ddb55X2D49ecX2D8efbX2D6a65bf388610 <http://my.org/#aliases> "HEC Maroc" .
+_:Bfe06a2beX2Ddb55X2D49ecX2D8efbX2D6a65bf388610 <http://my.org/#acronyms> "HEC" .
+_:Bfe06a2beX2Ddb55X2D49ecX2D8efbX2D6a65bf388610 <http://my.org/#status> "active" .
+_:Bfe06a2beX2Ddb55X2D49ecX2D8efbX2D6a65bf388610 <http://my.org/#wikipedia_url> "" .
+_:Bfe06a2beX2Ddb55X2D49ecX2D8efbX2D6a65bf388610 <http://my.org/#country> _:B621b6078X2Da0caX2D4780X2Dba8fX2D30dd187682f9 .
+_:B621b6078X2Da0caX2D4780X2Dba8fX2D30dd187682f9 <http://my.org/#country_name> "Morocco" .
+_:B621b6078X2Da0caX2D4780X2Dba8fX2D30dd187682f9 <http://my.org/#country_code> "MA" .
+_:Bfe06a2beX2Ddb55X2D49ecX2D8efbX2D6a65bf388610 <http://my.org/#external_ids> _:B4e6fcfacX2Dd0c3X2D4240X2D98b0X2De365139eafe4 .
+_:B4e6fcfacX2Dd0c3X2D4240X2D98b0X2De365139eafe4 <http://my.org/#Wikidata> _:B9198c2daX2Da0caX2D44dbX2Da66fX2D6071cf180c74 .
+_:B9198c2daX2Da0caX2D44dbX2Da66fX2D6071cf180c74 <http://my.org/#all> "Q3577932" .
+_:B4e6fcfacX2Dd0c3X2D4240X2D98b0X2De365139eafe4 <http://my.org/#GRID> _:Ba3647486X2D0ffaX2D494bX2Db0fbX2D6268cf68d43b .
+_:Ba3647486X2D0ffaX2D494bX2Db0fbX2D6268cf68d43b <http://my.org/#preferred> "grid.442812.9" .
+_:Ba3647486X2D0ffaX2D494bX2Db0fbX2D6268cf68d43b <http://my.org/#all> "grid.442812.9" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B705a5d5cX2Dd298X2D4e08X2D8d38X2Dabef3e17117e .
+_:B705a5d5cX2Dd298X2D4e08X2D8d38X2Dabef3e17117e <http://my.org/#id> "https://ror.org/036d3mg02" .
+_:B705a5d5cX2Dd298X2D4e08X2D8d38X2Dabef3e17117e <http://my.org/#name> "Université de Kasa-Vubu" .
+_:B705a5d5cX2Dd298X2D4e08X2D8d38X2Dabef3e17117e <http://my.org/#types> "Education" .
+_:B705a5d5cX2Dd298X2D4e08X2D8d38X2Dabef3e17117e <http://my.org/#status> "active" .
+_:B705a5d5cX2Dd298X2D4e08X2D8d38X2Dabef3e17117e <http://my.org/#wikipedia_url> "" .
+_:B705a5d5cX2Dd298X2D4e08X2D8d38X2Dabef3e17117e <http://my.org/#country> _:B0c64f93aX2D3317X2D479eX2D986dX2D7221a9f69a34 .
+_:B0c64f93aX2D3317X2D479eX2D986dX2D7221a9f69a34 <http://my.org/#country_name> "Democratic Republic of the Congo" .
+_:B0c64f93aX2D3317X2D479eX2D986dX2D7221a9f69a34 <http://my.org/#country_code> "CD" .
+_:B705a5d5cX2Dd298X2D4e08X2D8d38X2Dabef3e17117e <http://my.org/#external_ids> _:Bb46e96dbX2D8b3cX2D4a19X2D9821X2D24a223624b51 .
+_:Bb46e96dbX2D8b3cX2D4a19X2D9821X2D24a223624b51 <http://my.org/#GRID> _:Bd52d4a69X2D5c35X2D476cX2Dab01X2D42f57112aa44 .
+_:Bd52d4a69X2D5c35X2D476cX2Dab01X2D42f57112aa44 <http://my.org/#preferred> "grid.442831.8" .
+_:Bd52d4a69X2D5c35X2D476cX2Dab01X2D42f57112aa44 <http://my.org/#all> "grid.442831.8" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B9057bb54X2D45ecX2D4a5fX2D8165X2D4d759226cda8 .
+_:B9057bb54X2D45ecX2D4a5fX2D8165X2D4d759226cda8 <http://my.org/#id> "https://ror.org/0306pcd50" .
+_:B9057bb54X2D45ecX2D4a5fX2D8165X2D4d759226cda8 <http://my.org/#name> "Université Evangélique en Afrique" .
+_:B9057bb54X2D45ecX2D4a5fX2D8165X2D4d759226cda8 <http://my.org/#types> "Education" .
+_:B9057bb54X2D45ecX2D4a5fX2D8165X2D4d759226cda8 <http://my.org/#links> "http://uea.ac.cd" .
+_:B9057bb54X2D45ecX2D4a5fX2D8165X2D4d759226cda8 <http://my.org/#acronyms> "UEA" .
+_:B9057bb54X2D45ecX2D4a5fX2D8165X2D4d759226cda8 <http://my.org/#status> "active" .
+_:B9057bb54X2D45ecX2D4a5fX2D8165X2D4d759226cda8 <http://my.org/#wikipedia_url> "" .
+_:B9057bb54X2D45ecX2D4a5fX2D8165X2D4d759226cda8 <http://my.org/#country> _:B04e9d117X2D03d9X2D4014X2DaaebX2D01994c4b1e10 .
+_:B04e9d117X2D03d9X2D4014X2DaaebX2D01994c4b1e10 <http://my.org/#country_name> "Democratic Republic of the Congo" .
+_:B04e9d117X2D03d9X2D4014X2DaaebX2D01994c4b1e10 <http://my.org/#country_code> "CD" .
+_:B9057bb54X2D45ecX2D4a5fX2D8165X2D4d759226cda8 <http://my.org/#external_ids> _:B980d9697X2D69afX2D4e31X2Dad01X2D196c51551a4b .
+_:B980d9697X2D69afX2D4e31X2Dad01X2D196c51551a4b <http://my.org/#ISNI> _:B2331e0a6X2Dd450X2D4e03X2D8f47X2Dd1b7b84c0c3c .
+_:B2331e0a6X2Dd450X2D4e03X2D8f47X2Dd1b7b84c0c3c <http://my.org/#all> "0000 0004 6019 1275" .
+_:B980d9697X2D69afX2D4e31X2Dad01X2D196c51551a4b <http://my.org/#Wikidata> _:B97627751X2D66ddX2D44ffX2D9674X2Da251d498560f .
+_:B97627751X2D66ddX2D44ffX2D9674X2Da251d498560f <http://my.org/#all> "Q3551863" .
+_:B980d9697X2D69afX2D4e31X2Dad01X2D196c51551a4b <http://my.org/#GRID> _:B873cad2aX2D6665X2D4bdbX2DadcdX2D6f7024bffc0f .
+_:B873cad2aX2D6665X2D4bdbX2DadcdX2D6f7024bffc0f <http://my.org/#preferred> "grid.442835.c" .
+_:B873cad2aX2D6665X2D4bdbX2DadcdX2D6f7024bffc0f <http://my.org/#all> "grid.442835.c" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#items> _:B62d912ffX2D7363X2D4b60X2D9e26X2D962f334d5ee0 .
+_:B62d912ffX2D7363X2D4b60X2D9e26X2D962f334d5ee0 <http://my.org/#id> "https://ror.org/04sd0cj41" .
+_:B62d912ffX2D7363X2D4b60X2D9e26X2D962f334d5ee0 <http://my.org/#name> "Académie des Beaux-Arts" .
+_:B62d912ffX2D7363X2D4b60X2D9e26X2D962f334d5ee0 <http://my.org/#types> "Education" .
+_:B62d912ffX2D7363X2D4b60X2D9e26X2D962f334d5ee0 <http://my.org/#links> "https://www.academie-kinshasa.com/" .
+_:B62d912ffX2D7363X2D4b60X2D9e26X2D962f334d5ee0 <http://my.org/#acronyms> "ABA" .
+_:B62d912ffX2D7363X2D4b60X2D9e26X2D962f334d5ee0 <http://my.org/#status> "active" .
+_:B62d912ffX2D7363X2D4b60X2D9e26X2D962f334d5ee0 <http://my.org/#wikipedia_url> "https://en.wikipedia.org/wiki/Acad%C3%A9mie_des_Beaux-Arts_(Kinshasa)" .
+_:B62d912ffX2D7363X2D4b60X2D9e26X2D962f334d5ee0 <http://my.org/#country> _:B6141ba91X2D793fX2D4233X2D84e2X2De5d3081c34e6 .
+_:B6141ba91X2D793fX2D4233X2D84e2X2De5d3081c34e6 <http://my.org/#country_name> "Democratic Republic of the Congo" .
+_:B6141ba91X2D793fX2D4233X2D84e2X2De5d3081c34e6 <http://my.org/#country_code> "CD" .
+_:B62d912ffX2D7363X2D4b60X2D9e26X2D962f334d5ee0 <http://my.org/#external_ids> _:B1a43bef8X2D0c8dX2D403eX2Da93cX2Ddc1acf37d9b2 .
+_:B1a43bef8X2D0c8dX2D403eX2Da93cX2Ddc1acf37d9b2 <http://my.org/#ISNI> _:Befa4c3c9X2D481aX2D49f2X2Da883X2Dac6405c6ceab .
+_:Befa4c3c9X2D481aX2D49f2X2Da883X2Dac6405c6ceab <http://my.org/#all> "0000 0001 2150 4951" .
+_:B1a43bef8X2D0c8dX2D403eX2Da93cX2Ddc1acf37d9b2 <http://my.org/#OrgRef> _:Bba9ec605X2D75e3X2D4073X2Dbf5fX2D9ac924d319b1 .
+_:Bba9ec605X2D75e3X2D4073X2Dbf5fX2D9ac924d319b1 <http://my.org/#all> "13668170" .
+_:B1a43bef8X2D0c8dX2D403eX2Da93cX2Ddc1acf37d9b2 <http://my.org/#Wikidata> _:Bb2d40e11X2D54f7X2D484cX2D9a62X2Df57b0c167fec .
+_:Bb2d40e11X2D54f7X2D484cX2D9a62X2Df57b0c167fec <http://my.org/#all> "Q337502" .
+_:B1a43bef8X2D0c8dX2D403eX2Da93cX2Ddc1acf37d9b2 <http://my.org/#GRID> _:Bc28332b3X2Dc3dbX2D4d7aX2D8706X2D51bb7a75b6da .
+_:Bc28332b3X2Dc3dbX2D4d7aX2D8706X2D51bb7a75b6da <http://my.org/#preferred> "grid.442837.e" .
+_:Bc28332b3X2Dc3dbX2D4d7aX2D8706X2D51bb7a75b6da <http://my.org/#all> "grid.442837.e" .
+_:B7cc99a4bX2D0ffcX2D401bX2D9a2fX2D25d679bac9b6 <http://my.org/#meta> _:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#types> _:Bcc4ff794X2D9ce1X2D4066X2D9112X2D3e9d78b97ff7 .
+_:Bcc4ff794X2D9ce1X2D4066X2D9112X2D3e9d78b97ff7 <http://my.org/#id> "company" .
+_:Bcc4ff794X2D9ce1X2D4066X2D9112X2D3e9d78b97ff7 <http://my.org/#title> "Company" .
+_:Bcc4ff794X2D9ce1X2D4066X2D9112X2D3e9d78b97ff7 <http://my.org/#count> "28599"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#types> _:Bc36a9e77X2DfeeaX2D456eX2Db9d7X2Db340e83f2735 .
+_:Bc36a9e77X2DfeeaX2D456eX2Db9d7X2Db340e83f2735 <http://my.org/#id> "education" .
+_:Bc36a9e77X2DfeeaX2D456eX2Db9d7X2Db340e83f2735 <http://my.org/#title> "Education" .
+_:Bc36a9e77X2DfeeaX2D456eX2Db9d7X2Db340e83f2735 <http://my.org/#count> "19560"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#types> _:B9c2d451eX2D0793X2D4a1cX2D9ab2X2D8047ce3f31fe .
+_:B9c2d451eX2D0793X2D4a1cX2D9ab2X2D8047ce3f31fe <http://my.org/#id> "nonprofit" .
+_:B9c2d451eX2D0793X2D4a1cX2D9ab2X2D8047ce3f31fe <http://my.org/#title> "Nonprofit" .
+_:B9c2d451eX2D0793X2D4a1cX2D9ab2X2D8047ce3f31fe <http://my.org/#count> "13479"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#types> _:Bdcd2db9eX2D6060X2D4b43X2D8ca9X2D5a7f44dd0729 .
+_:Bdcd2db9eX2D6060X2D4b43X2D8ca9X2D5a7f44dd0729 <http://my.org/#id> "healthcare" .
+_:Bdcd2db9eX2D6060X2D4b43X2D8ca9X2D5a7f44dd0729 <http://my.org/#title> "Healthcare" .
+_:Bdcd2db9eX2D6060X2D4b43X2D8ca9X2D5a7f44dd0729 <http://my.org/#count> "12650"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#types> _:B1a2e047aX2Dfda9X2D40baX2D8b97X2D460c0e7dcf48 .
+_:B1a2e047aX2Dfda9X2D40baX2D8b97X2D460c0e7dcf48 <http://my.org/#id> "facility" .
+_:B1a2e047aX2Dfda9X2D40baX2D8b97X2D460c0e7dcf48 <http://my.org/#title> "Facility" .
+_:B1a2e047aX2Dfda9X2D40baX2D8b97X2D460c0e7dcf48 <http://my.org/#count> "8677"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#types> _:B08b2b7a9X2Dff86X2D4092X2Db44aX2D5381ad7a4927 .
+_:B08b2b7a9X2Dff86X2D4092X2Db44aX2D5381ad7a4927 <http://my.org/#id> "other" .
+_:B08b2b7a9X2Dff86X2D4092X2Db44aX2D5381ad7a4927 <http://my.org/#title> "Other" .
+_:B08b2b7a9X2Dff86X2D4092X2Db44aX2D5381ad7a4927 <http://my.org/#count> "7973"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#types> _:Ba251e43fX2D8c22X2D4400X2D8abcX2Dedc5b718947b .
+_:Ba251e43fX2D8c22X2D4400X2D8abcX2Dedc5b718947b <http://my.org/#id> "government" .
+_:Ba251e43fX2D8c22X2D4400X2D8abcX2Dedc5b718947b <http://my.org/#title> "Government" .
+_:Ba251e43fX2D8c22X2D4400X2D8abcX2Dedc5b718947b <http://my.org/#count> "5886"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#types> _:Ba45f93c5X2D6c21X2D434cX2D84cfX2D9d576489f310 .
+_:Ba45f93c5X2D6c21X2D434cX2D84cfX2D9d576489f310 <http://my.org/#id> "archive" .
+_:Ba45f93c5X2D6c21X2D434cX2D84cfX2D9d576489f310 <http://my.org/#title> "Archive" .
+_:Ba45f93c5X2D6c21X2D434cX2D84cfX2D9d576489f310 <http://my.org/#count> "2760"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#countries> _:Bcd93408dX2D1c01X2D448dX2Daf5aX2D5f7dea210e4d .
+_:Bcd93408dX2D1c01X2D448dX2Daf5aX2D5f7dea210e4d <http://my.org/#id> "us" .
+_:Bcd93408dX2D1c01X2D448dX2Daf5aX2D5f7dea210e4d <http://my.org/#title> "United States of America" .
+_:Bcd93408dX2D1c01X2D448dX2Daf5aX2D5f7dea210e4d <http://my.org/#count> "30147"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#countries> _:Bacbeec34X2D43fdX2D4072X2Dba63X2D978043653d36 .
+_:Bacbeec34X2D43fdX2D4072X2Dba63X2D978043653d36 <http://my.org/#id> "gb" .
+_:Bacbeec34X2D43fdX2D4072X2Dba63X2D978043653d36 <http://my.org/#title> "United Kingdom of Great Britain and Northern Ireland" .
+_:Bacbeec34X2D43fdX2D4072X2Dba63X2D978043653d36 <http://my.org/#count> "7210"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#countries> _:Bbcbd1428X2Dcd4fX2D473dX2Da181X2Db95f03e0bd2d .
+_:Bbcbd1428X2Dcd4fX2D473dX2Da181X2Db95f03e0bd2d <http://my.org/#id> "de" .
+_:Bbcbd1428X2Dcd4fX2D473dX2Da181X2Db95f03e0bd2d <http://my.org/#title> "Federal Republic of Germany" .
+_:Bbcbd1428X2Dcd4fX2D473dX2Da181X2Db95f03e0bd2d <http://my.org/#count> "4818"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#countries> _:B75d54881X2Dcb2dX2D4462X2D8e42X2Df989f0dab2d6 .
+_:B75d54881X2Dcb2dX2D4462X2D8e42X2Df989f0dab2d6 <http://my.org/#id> "cn" .
+_:B75d54881X2Dcb2dX2D4462X2D8e42X2Df989f0dab2d6 <http://my.org/#title> "People's Republic of China" .
+_:B75d54881X2Dcb2dX2D4462X2D8e42X2Df989f0dab2d6 <http://my.org/#count> "4590"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#countries> _:B29226d54X2D2ba7X2D4180X2D85e9X2D358bf2d949ba .
+_:B29226d54X2D2ba7X2D4180X2D85e9X2D358bf2d949ba <http://my.org/#id> "jp" .
+_:B29226d54X2D2ba7X2D4180X2D85e9X2D358bf2d949ba <http://my.org/#title> "Japan" .
+_:B29226d54X2D2ba7X2D4180X2D85e9X2D358bf2d949ba <http://my.org/#count> "3815"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#countries> _:B7dc542e2X2Df350X2D405dX2D99e6X2D61c6c3d5316a .
+_:B7dc542e2X2Df350X2D405dX2D99e6X2D61c6c3d5316a <http://my.org/#id> "fr" .
+_:B7dc542e2X2Df350X2D405dX2D99e6X2D61c6c3d5316a <http://my.org/#title> "French Republic" .
+_:B7dc542e2X2Df350X2D405dX2D99e6X2D61c6c3d5316a <http://my.org/#count> "3708"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#countries> _:Bdaa898f3X2Dd799X2D434dX2Da1c7X2D80d2dae48a50 .
+_:Bdaa898f3X2Dd799X2D434dX2Da1c7X2D80d2dae48a50 <http://my.org/#id> "ca" .
+_:Bdaa898f3X2Dd799X2D434dX2Da1c7X2D80d2dae48a50 <http://my.org/#title> "Canada" .
+_:Bdaa898f3X2Dd799X2D434dX2Da1c7X2D80d2dae48a50 <http://my.org/#count> "3218"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#countries> _:B4e84da60X2D4350X2D4575X2Db0e2X2D9ae712322a1e .
+_:B4e84da60X2D4350X2D4575X2Db0e2X2D9ae712322a1e <http://my.org/#id> "in" .
+_:B4e84da60X2D4350X2D4575X2Db0e2X2D9ae712322a1e <http://my.org/#title> "Republic of India" .
+_:B4e84da60X2D4350X2D4575X2Db0e2X2D9ae712322a1e <http://my.org/#count> "2880"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#countries> _:Bc87426b6X2Dd74dX2D43f3X2D8e2dX2D33a729f5df48 .
+_:Bc87426b6X2Dd74dX2D43f3X2D8e2dX2D33a729f5df48 <http://my.org/#id> "cz" .
+_:Bc87426b6X2Dd74dX2D43f3X2D8e2dX2D33a729f5df48 <http://my.org/#title> "Czech Republic" .
+_:Bc87426b6X2Dd74dX2D43f3X2D8e2dX2D33a729f5df48 <http://my.org/#count> "2739"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:Ba03b522cX2D7337X2D4c46X2D9905X2D0aa20870006b <http://my.org/#countries> _:B29aa4114X2D7cd1X2D4ac7X2D8c23X2D03cb799b4a44 .
+_:B29aa4114X2D7cd1X2D4ac7X2D8c23X2D03cb799b4a44 <http://my.org/#id> "ru" .
+_:B29aa4114X2D7cd1X2D4ac7X2D8c23X2D03cb799b4a44 <http://my.org/#title> "Russian Federation" .
+_:B29aa4114X2D7cd1X2D4ac7X2D8c23X2D03cb799b4a44 <http://my.org/#count> "2009"^^<http://www.w3.org/2001/XMLSchema#int> .
