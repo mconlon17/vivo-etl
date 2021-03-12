@@ -1,0 +1,21 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vivo:  <http://vivoweb.org/ontology/core#> .
+@prefix my:    <http://my.org#> .
+@prefix obo:   <http://purl.obolibrary.org/obo/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<http://vivoweb.org/org/ror02y3ad647>
+        a                  vivo:University , foaf:Organization ;
+        rdfs:label         "University of Florida" ;
+        obo:ARG_2000028    <http://vivoweb.org/org/ror02y3ad647vcard> ;
+        vivo:0002000       <http://vivoweb.org/org/countryUS> ;
+        vivo:abbreviation  "UF" .
+
+<http://vivoweb.org/org/ror02y3ad647homepage>
+        rdfs:label  "Homepage"@en ;
+        vcard:url   "http://www.ufl.edu/" .
+
+<http://vivoweb.org/org/ror02y3ad647vcard>
+        vcard:hasURL  <http://vivoweb.org/org/ror02y3ad647homepage> .

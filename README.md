@@ -42,31 +42,29 @@ Use the command line tool `wget` to create a JSON file from an API.
 
 ## `JSON2RDF`
 
-Use [`JSON2RDF]() to convert any JSON file a *raw* RDF file.  `JSON2RDF` uses the 
+Use [`JSON2RDF](https://github.com/AtomGraph/JSON2RDF) to convert any JSON file a *raw* RDF file.  `JSON2RDF` uses the 
 semantics
 of the JSON file to create predicates for the triples it uses to create RDF.
 
-For example,
-
 ## `robot`
 
-Use [`robot`]() to convert the raw RDF produced by `JSON2RDF` to VIVO RDF for the
+Use [`robot`](http://robot.obolibrary.org/) to convert the raw RDF produced by `JSON2RDF` to VIVO RDF for the
 ontologies of choice by using an appropriate SPARQL CONSTRUCT query.  Examples
 are provided.
 
 ## `tdbloader`
 
-Loading triples can be done with TDBLoader from Jena.  It's super fast.
+Use [tdbloader](https://jena.apache.org/documentation/tdb/commands.html#tdbloader) for loading triples to a triple store.  It's super fast. And
+for MacOS, and Linux, there's [tdbloader2](https://jena.apache.org/documentation/tdb/commands.html#tdbloader2) that's even faster.
 
 # Examples
 
 We hope to build a small library (you can help!) of examples for various sources and
-targets.  Being VIVO, we have two targets in mind: 1) the existing VIVO ontology and
+targets.  For VIVO, we have two targets in mind: 1) the existing VIVO ontology and
 ontologies used by the VIVO ontology to make data that can be loaded into a current
-version of VIVO, and 2) the new VIVO ontologies, to have data ready when the softwarex
+version of VIVO, and 2) the new VIVO ontologies, to have data ready when the software
 is able to use the new ontologies.
 
-Entities | Source | Target | Example
---- | --- | --- | ---
-Organizations | ROR | new VIVO | `org-ror-new.sparql`
-Organizations | ROR | current VIVO | `org-ror-vivo.sparql`
+Entities | Source | Target | Query VIVO | Query New 
+--- | --- | --- | --- | --- 
+Organizations | ROR | new VIVO | `org-ror-new.sparql` |`org-ror-new.sparql`
