@@ -1,0 +1,21 @@
+[ <http://my.org#acronyms>       "NPL" ;
+  <http://my.org#country>        [ <http://my.org#country_code>  "GB" ;
+                                   <http://my.org#country_name>  "United Kingdom"
+                                 ] ;
+  <http://my.org#external_ids>   [ <http://my.org#GRID>      [ <http://my.org#all>        "grid.410351.2" ;
+                                                               <http://my.org#preferred>  "grid.410351.2"
+                                                             ] ;
+                                   <http://my.org#ISNI>      [ <http://my.org#all>
+                                                     "0000 0000 8991 6349" ] ;
+                                   <http://my.org#OrgRef>    [ <http://my.org#all>
+                                                     "250381" ] ;
+                                   <http://my.org#Wikidata>  [ <http://my.org#all>
+                                                     "Q1967606" ]
+                                 ] ;
+  <http://my.org#id>             "https://ror.org/015w2mp89" ;
+  <http://my.org#links>          "http://www.npl.co.uk/" ;
+  <http://my.org#name>           "National Physical Laboratory" ;
+  <http://my.org#status>         "active" ;
+  <http://my.org#types>          "Facility" ;
+  <http://my.org#wikipedia_url>  "http://en.wikipedia.org/wiki/National_Physical_Laboratory_(United_Kingdom)"
+] .

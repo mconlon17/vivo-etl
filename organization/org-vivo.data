@@ -1,0 +1,35 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vivo:  <http://vivoweb.org/ontology/core#> .
+@prefix my:    <http://my.org/#> .
+@prefix obo:   <http://purl.obolibrary.org/obo/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<http://vivoweb.org/org/ror03q0dfp67>
+        a                  vivo:University , foaf:Organization ;
+        rdfs:label         "Catholic University of Central Africa" ;
+        obo:ARG_2000028    <http://vivoweb.org/org/ror03q0dfp67vcard> ;
+        vivo:0002000       <http://vivoweb.org/org/countryCM> ;
+        vivo:abbreviation  "UCAC" , "CUAC" .
+
+<http://vivoweb.org/org/ror04sd0cj41vcard>
+        vcard:hasURL  <http://vivoweb.org/org/ror04sd0cj41homepage> .
+
+<http://vivoweb.org/org/ror04sd0cj41homepage>
+        rdfs:label  "Homepage"@en ;
+        vcard:url   "https://www.academie-kinshasa.com/" .
+
+<http://vivoweb.org/org/ror03q0dfp67vcard>
+        vcard:hasURL  <http://vivoweb.org/org/ror03q0dfp67homepage> .
+
+<http://vivoweb.org/org/ror04sd0cj41>
+        a                  vivo:University , foaf:Organization ;
+        rdfs:label         "Académie des Beaux-Arts" ;
+        obo:ARG_2000028    <http://vivoweb.org/org/ror04sd0cj41vcard> ;
+        vivo:0002000       <http://vivoweb.org/org/countryCD> ;
+        vivo:abbreviation  "ABA" .
+
+<http://vivoweb.org/org/ror03q0dfp67homepage>
+        rdfs:label  "Homepage"@en ;
+        vcard:url   "http://www.ucac-icy.net" .

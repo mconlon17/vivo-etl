@@ -1,0 +1,443 @@
+[ <http://my.org/#items>       [ <http://my.org/#acronyms>       "EAC" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "MA" ;
+                                                                   <http://my.org/#country_name>  "Morocco"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442767.4" ;
+                                                                                                <http://my.org/#preferred>  "grid.442767.4"
+                                                                                              ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q30294362" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/03fgj8421" ;
+                                 <http://my.org/#links>          "http://www.ecolearchicasa.com/" ;
+                                 <http://my.org/#name>           "École d'Architecture de Casablanca" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "ABA" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "CD" ;
+                                                                   <http://my.org/#country_name>  "Democratic Republic of the Congo"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442837.e" ;
+                                                                                                <http://my.org/#preferred>  "grid.442837.e"
+                                                                                              ] ;
+                                                                   <http://my.org/#ISNI>      [ <http://my.org/#all>
+                                                                                     "0000 0001 2150 4951" ] ;
+                                                                   <http://my.org/#OrgRef>    [ <http://my.org/#all>
+                                                                                     "13668170" ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q337502" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/04sd0cj41" ;
+                                 <http://my.org/#links>          "https://www.academie-kinshasa.com/" ;
+                                 <http://my.org/#name>           "Académie des Beaux-Arts" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  "https://en.wikipedia.org/wiki/Acad%C3%A9mie_des_Beaux-Arts_(Kinshasa)"
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "CESAG" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "SN" ;
+                                                                   <http://my.org/#country_name>  "Senegal"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442750.0" ;
+                                                                                                <http://my.org/#preferred>  "grid.442750.0"
+                                                                                              ] ;
+                                                                   <http://my.org/#ISNI>      [ <http://my.org/#all>
+                                                                                     "0000 0004 1797 6739" ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q30294349" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/04aen0982" ;
+                                 <http://my.org/#links>          "https://www.cesag.sn/" ;
+                                 <http://my.org/#name>           "Centre Africain d'Études Supérieures en Gestion" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "ENA" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "MA" ;
+                                                                   <http://my.org/#country_name>  "Morocco"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442809.3" ;
+                                                                                                <http://my.org/#preferred>  "grid.442809.3"
+                                                                                              ] ;
+                                                                   <http://my.org/#ISNI>      [ <http://my.org/#all>
+                                                                                     "0000 0004 1773 4262" ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q30294394" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/00n7n3773" ;
+                                 <http://my.org/#labels>         [ <http://my.org/#iso639>  "ar" ;
+                                                                   <http://my.org/#label>   "المدرسة الوطنية للهندسة المعمارية"
+                                                                 ] ;
+                                 <http://my.org/#labels>         [ <http://my.org/#iso639>  "fr" ;
+                                                                   <http://my.org/#label>   "Ecole Nationale d'Architecture"
+                                                                 ] ;
+                                 <http://my.org/#links>          "http://archi.ac.ma/" ;
+                                 <http://my.org/#name>           "National School of Architecture" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "ESIG" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "MA" ;
+                                                                   <http://my.org/#country_name>  "Morocco"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>
+                                                   [ <http://my.org/#all>        "grid.442786.b" ;
+                                                     <http://my.org/#preferred>  "grid.442786.b"
+                                                   ] ] ;
+                                 <http://my.org/#id>             "https://ror.org/04h86q851" ;
+                                 <http://my.org/#links>          "http://www.esigmaroc.com/" ;
+                                 <http://my.org/#name>           "École Supérieure Internationale de Gestion" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "UNABA" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "TD" ;
+                                                                   <http://my.org/#country_name>  "Chad"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442790.c" ;
+                                                                                                <http://my.org/#preferred>  "grid.442790.c"
+                                                                                              ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q3551366" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/00m4aft17" ;
+                                 <http://my.org/#name>           "Université Adam Barka d'Abéché" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "IIST" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "SN" ;
+                                                                   <http://my.org/#country_name>  "Senegal"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442772.0" ;
+                                                                                                <http://my.org/#preferred>  "grid.442772.0"
+                                                                                              ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q30294367" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/01yt1q538" ;
+                                 <http://my.org/#links>          "http://www.iist-hilight.com/" ;
+                                 <http://my.org/#name>           "Institut International des Sciences et de Technologie" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "ENA" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "SN" ;
+                                                                   <http://my.org/#country_name>  "Senegal"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442757.7" ;
+                                                                                                <http://my.org/#preferred>  "grid.442757.7"
+                                                                                              ] ;
+                                                                   <http://my.org/#ISNI>      [ <http://my.org/#all>
+                                                                                     "0000 0004 5345 4292" ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q3578068" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/00x4mq261" ;
+                                 <http://my.org/#links>          "http://www.ena.sn/" ;
+                                 <http://my.org/#name>           "École Nationale d'Administration" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#country>        [ <http://my.org/#country_code>  "CD" ;
+                                                                   <http://my.org/#country_name>  "Democratic Republic of the Congo"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>
+                                                   [ <http://my.org/#all>        "grid.442831.8" ;
+                                                     <http://my.org/#preferred>  "grid.442831.8"
+                                                   ] ] ;
+                                 <http://my.org/#id>             "https://ror.org/036d3mg02" ;
+                                 <http://my.org/#name>           "Université de Kasa-Vubu" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "UEA" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "CD" ;
+                                                                   <http://my.org/#country_name>  "Democratic Republic of the Congo"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442835.c" ;
+                                                                                                <http://my.org/#preferred>  "grid.442835.c"
+                                                                                              ] ;
+                                                                   <http://my.org/#ISNI>      [ <http://my.org/#all>
+                                                                                     "0000 0004 6019 1275" ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q3551863" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/0306pcd50" ;
+                                 <http://my.org/#links>          "http://uea.ac.cd" ;
+                                 <http://my.org/#name>           "Université Evangélique en Afrique" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "HEC" ;
+                                 <http://my.org/#aliases>        "HEC Maroc" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "MA" ;
+                                                                   <http://my.org/#country_name>  "Morocco"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442812.9" ;
+                                                                                                <http://my.org/#preferred>  "grid.442812.9"
+                                                                                              ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q3577932" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/00ychtq28" ;
+                                 <http://my.org/#links>          "https://hec.ac.ma/" ;
+                                 <http://my.org/#name>           "École des Hautes Études Commerciales" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "ESP" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "MA" ;
+                                                                   <http://my.org/#country_name>  "Morocco"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442782.f" ;
+                                                                                                <http://my.org/#preferred>  "grid.442782.f"
+                                                                                              ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q30294374" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/01ddvnr27" ;
+                                 <http://my.org/#links>          "http://www.psychosup.net/" ;
+                                 <http://my.org/#name>           "École Supérieure de Psychologie" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "INSTA" , "IUSTA" ;
+                                 <http://my.org/#aliases>        "Institut universitaire des sciences et techniques d'Abéché" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "TD" ;
+                                                                   <http://my.org/#country_name>  "Chad"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442788.5" ;
+                                                                                                <http://my.org/#preferred>  "grid.442788.5"
+                                                                                              ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q3152764" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/035rgqg63" ;
+                                 <http://my.org/#links>          "http://www.iusta-tchad.org/" ;
+                                 <http://my.org/#name>           "Institut National Supérieur des Sciences et Techniques d'Abéché" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "ISCAE" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "MA" ;
+                                                                   <http://my.org/#country_name>  "Morocco"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442801.b" ;
+                                                                                                <http://my.org/#preferred>  "grid.442801.b"
+                                                                                              ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q30294387" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/05cedyx57" ;
+                                 <http://my.org/#links>          "https://www.groupeiscae.ma/" ;
+                                 <http://my.org/#name>           "Institut Supérieur de Commerce et d'Administration des Entreprises" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  "https://en.wikipedia.org/wiki/ISCAE"
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#aliases>        "Complexe Universitaire Siantou" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "CM" ;
+                                                                   <http://my.org/#country_name>  "Cameroon"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442751.1" ;
+                                                                                                <http://my.org/#preferred>  "grid.442751.1"
+                                                                                              ] ;
+                                                                   <http://my.org/#ISNI>      [ <http://my.org/#all>
+                                                                                     "0000 0004 5345 8605" ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q30294350" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/02jwdjd44" ;
+                                 <http://my.org/#links>          "https://siantou-univ.com/" ;
+                                 <http://my.org/#name>           "Institut Universitaire Siantou" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "ESIA" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "MA" ;
+                                                                   <http://my.org/#country_name>  "Morocco"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442769.a" ;
+                                                                                                <http://my.org/#preferred>  "grid.442769.a"
+                                                                                              ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q30294364" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/047e7td90" ;
+                                 <http://my.org/#name>           "École Supérieure d'Informatique Appliquée" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "HBF" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "MA" ;
+                                                                   <http://my.org/#country_name>  "Morocco"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442787.a" ;
+                                                                                                <http://my.org/#preferred>  "grid.442787.a"
+                                                                                              ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q30294378" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/02kpg0b77" ;
+                                 <http://my.org/#links>          "https://hbfmaroc.com/" ;
+                                 <http://my.org/#name>           "Institut des Hautes Etudes Bancaires, Financières et Managériale" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "CUAC" , "UCAC" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "CM" ;
+                                                                   <http://my.org/#country_name>  "Cameroon"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442755.5" ;
+                                                                                                <http://my.org/#preferred>  "grid.442755.5"
+                                                                                              ] ;
+                                                                   <http://my.org/#ISNI>      [ <http://my.org/#all>
+                                                                                     "0000 0001 2168 3603" ] ;
+                                                                   <http://my.org/#OrgRef>    [ <http://my.org/#all>
+                                                                                     "16566731" ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q1707564" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/03q0dfp67" ;
+                                 <http://my.org/#labels>         [ <http://my.org/#iso639>  "fr" ;
+                                                                   <http://my.org/#label>   "Université catholique d'afrique centrale"
+                                                                 ] ;
+                                 <http://my.org/#links>          "http://www.ucac-icy.net" ;
+                                 <http://my.org/#name>           "Catholic University of Central Africa" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  "https://en.wikipedia.org/wiki/Catholic_University_of_Central_Africa"
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "ESI" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "MA" ;
+                                                                   <http://my.org/#country_name>  "Morocco"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442789.4" ;
+                                                                                                <http://my.org/#preferred>  "grid.442789.4"
+                                                                                              ] ;
+                                                                   <http://my.org/#ISNI>      [ <http://my.org/#all>
+                                                                                     "0000 0001 2184 2416" ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q3577955" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/04wx25x02" ;
+                                 <http://my.org/#labels>         [ <http://my.org/#iso639>  "ar" ;
+                                                                   <http://my.org/#label>   "مدرسة علوم المعلومات"
+                                                                 ] ;
+                                 <http://my.org/#links>          "http://www.esi.ac.ma/" ;
+                                 <http://my.org/#name>           "École des Sciences de I'information" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#items>       [ <http://my.org/#acronyms>       "IHEES" ;
+                                 <http://my.org/#country>        [ <http://my.org/#country_code>  "MA" ;
+                                                                   <http://my.org/#country_name>  "Morocco"
+                                                                 ] ;
+                                 <http://my.org/#external_ids>   [ <http://my.org/#GRID>      [ <http://my.org/#all>        "grid.442796.a" ;
+                                                                                                <http://my.org/#preferred>  "grid.442796.a"
+                                                                                              ] ;
+                                                                   <http://my.org/#Wikidata>  [ <http://my.org/#all>
+                                                                                     "Q30294382" ]
+                                                                 ] ;
+                                 <http://my.org/#id>             "https://ror.org/0158yx659" ;
+                                 <http://my.org/#links>          "http://ecolesuperieure.ma/ecole/ihees/" ;
+                                 <http://my.org/#name>           "Groupe Institut Des Hautes Etudes Economiques Et Sociales" ;
+                                 <http://my.org/#status>         "active" ;
+                                 <http://my.org/#types>          "Education" ;
+                                 <http://my.org/#wikipedia_url>  ""
+                               ] ;
+  <http://my.org/#meta>        [ <http://my.org/#countries>  [ <http://my.org/#count>  "4818"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "de" ;
+                                                               <http://my.org/#title>  "Federal Republic of Germany"
+                                                             ] ;
+                                 <http://my.org/#countries>  [ <http://my.org/#count>  "2739"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "cz" ;
+                                                               <http://my.org/#title>  "Czech Republic"
+                                                             ] ;
+                                 <http://my.org/#countries>  [ <http://my.org/#count>  "3218"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "ca" ;
+                                                               <http://my.org/#title>  "Canada"
+                                                             ] ;
+                                 <http://my.org/#countries>  [ <http://my.org/#count>  "7210"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "gb" ;
+                                                               <http://my.org/#title>  "United Kingdom of Great Britain and Northern Ireland"
+                                                             ] ;
+                                 <http://my.org/#countries>  [ <http://my.org/#count>  "4590"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "cn" ;
+                                                               <http://my.org/#title>  "People's Republic of China"
+                                                             ] ;
+                                 <http://my.org/#countries>  [ <http://my.org/#count>  "2009"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "ru" ;
+                                                               <http://my.org/#title>  "Russian Federation"
+                                                             ] ;
+                                 <http://my.org/#countries>  [ <http://my.org/#count>  "3815"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "jp" ;
+                                                               <http://my.org/#title>  "Japan"
+                                                             ] ;
+                                 <http://my.org/#countries>  [ <http://my.org/#count>  "2880"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "in" ;
+                                                               <http://my.org/#title>  "Republic of India"
+                                                             ] ;
+                                 <http://my.org/#countries>  [ <http://my.org/#count>  "30147"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "us" ;
+                                                               <http://my.org/#title>  "United States of America"
+                                                             ] ;
+                                 <http://my.org/#countries>  [ <http://my.org/#count>  "3708"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "fr" ;
+                                                               <http://my.org/#title>  "French Republic"
+                                                             ] ;
+                                 <http://my.org/#types>      [ <http://my.org/#count>  "12650"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "healthcare" ;
+                                                               <http://my.org/#title>  "Healthcare"
+                                                             ] ;
+                                 <http://my.org/#types>      [ <http://my.org/#count>  "19560"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "education" ;
+                                                               <http://my.org/#title>  "Education"
+                                                             ] ;
+                                 <http://my.org/#types>      [ <http://my.org/#count>  "7973"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "other" ;
+                                                               <http://my.org/#title>  "Other"
+                                                             ] ;
+                                 <http://my.org/#types>      [ <http://my.org/#count>  "28599"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "company" ;
+                                                               <http://my.org/#title>  "Company"
+                                                             ] ;
+                                 <http://my.org/#types>      [ <http://my.org/#count>  "2760"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "archive" ;
+                                                               <http://my.org/#title>  "Archive"
+                                                             ] ;
+                                 <http://my.org/#types>      [ <http://my.org/#count>  "13479"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "nonprofit" ;
+                                                               <http://my.org/#title>  "Nonprofit"
+                                                             ] ;
+                                 <http://my.org/#types>      [ <http://my.org/#count>  "5886"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "government" ;
+                                                               <http://my.org/#title>  "Government"
+                                                             ] ;
+                                 <http://my.org/#types>      [ <http://my.org/#count>  "8677"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                               <http://my.org/#id>     "facility" ;
+                                                               <http://my.org/#title>  "Facility"
+                                                             ]
+                               ] ;
+  <http://my.org/#number_of_results>
+          "99609"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://my.org/#time_taken>  "10"^^<http://www.w3.org/2001/XMLSchema#int>
+] .
