@@ -83,17 +83,17 @@ ontologies used by the VIVO ontology to make data that can be loaded into a curr
 version of VIVO, and 2) the new VIVO ontologies, to have data ready when the software
 is able to use the new ontologies.
 
-| Entities | Source | Target VIVO | Target New VIVO | Notes |
-| --- | --- | --- | --- | --- | 
-|Organization | ROR | `org-ror-vivo.sparql` | `org-ror-new.sparql` | |
-| | Local | `org-local-vivo.sparql` | `org-local-new.sparql`| |
-|Publication | Pubmed | `pub-pubmed-vivo.sparql` | `pub-pubmed-new.sparql`| |
-|  | CrossRef | `pub-crossref-vivo.sparql` | `pub-crossref-new.sparql`| |
-| | Local | `pub-local-vivo.sparql` | `pub-local-new.sparql`| |
-|  | Figshare | `pub-figshare-vivo.sparql` | `pub-figshare-new.sparql`| |
-|Dataset | DataCite | `data-datacite-vivo.sparql` | `data-datacite-new.sparql`| |
-|  | Local | `data-local-vivo.sparql` | `data-local-new.sparql`| |
-|Person | ORCID | `person-orcid-vivo.sparql` | `person-orcid-new.sparql`| Need API Key|
-|  | Local | `person-local-vivo.sparql` | `person-local-new.sparql`| |
-|Project | Local | `project-local-vivo.sparql` | `project-local-new.sparql`| |
-|Resource | Local | `resource-local-vivo.sparql` | `resource-local-new.sparql`| |
+| Entities | Source | Script | Example |
+| --- | --- | --- | --- | 
+|Organization | ROR | `./ror.sh rorid outfile [vivo|new]` | `./ror.sh 02y3ad647 uf new` |
+| | Local |  | | 
+|Publication | Pubmed | `./pubmed.sh pmid outfile [vivo|new]` | `./pubmed.sh 10.1021/acs.analchem.0c03581 metabosoftware vivo` |
+|  | CrossRef | | |
+| | Local | | |
+|  | Figshare | | |
+|Dataset | DataCite | | |
+|  | Local | | |
+|Person | ORCID | | Need API Key|
+|  | Local | | |
+|Project | Local | | |
+|Resource | Local | | |
