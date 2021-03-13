@@ -24,6 +24,8 @@ loading them to a triple store in accordance with some semantics of our choice.
 
 Using this approach we can convert data from any source to any triple store.
 
+URLs for entities are constructed from PIDS.
+
 # Utilities
 
 ## `csv2json.py`
@@ -78,7 +80,17 @@ ontologies used by the VIVO ontology to make data that can be loaded into a curr
 version of VIVO, and 2) the new VIVO ontologies, to have data ready when the software
 is able to use the new ontologies.
 
-Entities | Source | Target | Query VIVO | Query New 
---- | --- | --- | --- | --- 
-Organizations | ROR | new VIVO | `org-ror-new.sparql` |`org-ror-new.sparql`
-Organizations | ROR | VIVO | `org-ror-vivo.sparql` |`org-ror-vivo.sparql`
+Entities | Source | Target VIVO | Target New VIVO | Notes
+--- | --- | --- | --- | --- | ---
+Organization | ROR | `org-ror-vivo.sparql` | `org-ror-new.sparql` |
+Organization | Local | `org-local-vivo.sparql` | `org-local-new.sparql`|
+Publication | Pubmed | `pub-pubmed-vivo.sparql` | `pub-pubmed-new.sparql`|
+Publication | CrossRef | `pub-crossref-vivo.sparql` | `pub-crossref-new.sparql`|
+Publication | Local | `pub-local-vivo.sparql` | `pub-local-new.sparql`|
+Publication | Figshare | `pub-figshare-vivo.sparql` | `pub-figshare-new.sparql`|
+Dataset | DataCite | `data-datacite-vivo.sparql` | `data-datacite-new.sparql`|
+Dataset | Local | `data-local-vivo.sparql` | `data-local-new.sparql`|
+Person | ORCID | `person-orcid-vivo.sparql` | `person-orcid-new.sparql`| Need API Key
+Person | Local | `person-local-vivo.sparql` | `person-local-new.sparql`
+Project | Local | `project-local-vivo.sparql` | `project-local-new.sparql`
+Resource | Local | `resource-local-vivo.sparql` | `resource-local-new.sparql`
