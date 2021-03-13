@@ -1,5 +1,6 @@
 # vivo-etl
-Experiments with data ingest from CSV and JSON to VIVO
+Experiments with data ingest from CSV and JSON to current VIVO and to the new VIVO 
+ontologies.
 
 # The Approach
 
@@ -45,13 +46,15 @@ Use the command line tool `wget` to create a JSON file from an API.
 
 ## `JSON2RDF`
 
-Use [`JSON2RDF](https://github.com/AtomGraph/JSON2RDF) to convert any JSON file a *raw* 
+Use [`JSON2RDF`](https://github.com/AtomGraph/JSON2RDF) to convert any JSON file a *raw* 
 RDF file.  `JSON2RDF` uses the semantics
 of the JSON file to create predicates for the triples it uses to create RDF.
 
 ## riot
 
-Use [`riot`](), the Apache Jena "RDF input output tool" to convert the output of 
+Use [`riot`](https://jena.apache.org/documentation/io/), the Apache Jena command line 
+"RDF input 
+output tool" to convert the output of 
 `JSON2RDF` to a TURTLE representation appropriate for `robot` (see below).  By
 default, `JSON2RDF` produces N-triples with blank node IRI for entities.  `robot` is
 not yet able to read such files.  Converting the triples format to an anonymous TTL
@@ -66,7 +69,7 @@ are provided.
 
 ## `tdbloader`
 
-Use [tdbloader](https://jena.apache.org/documentation/tdb/commands.html#tdbloader) for 
+Use [`tdbloader`](https://jena.apache.org/documentation/tdb/commands.html#tdbloader) for 
 loading triples to a triple store.  It's super fast. And
 for MacOS, and Linux, there's also 
 [tdbloader2](https://jena.apache.org/documentation/tdb/commands.html#tdbloader2) 
@@ -83,14 +86,14 @@ is able to use the new ontologies.
 | Entities | Source | Target VIVO | Target New VIVO | Notes |
 | --- | --- | --- | --- | --- | 
 |Organization | ROR | `org-ror-vivo.sparql` | `org-ror-new.sparql` | |
-|Organization | Local | `org-local-vivo.sparql` | `org-local-new.sparql`| |
+| | Local | `org-local-vivo.sparql` | `org-local-new.sparql`| |
 |Publication | Pubmed | `pub-pubmed-vivo.sparql` | `pub-pubmed-new.sparql`| |
-|Publication | CrossRef | `pub-crossref-vivo.sparql` | `pub-crossref-new.sparql`| |
-|Publication | Local | `pub-local-vivo.sparql` | `pub-local-new.sparql`| |
-|Publication | Figshare | `pub-figshare-vivo.sparql` | `pub-figshare-new.sparql`| |
+|  | CrossRef | `pub-crossref-vivo.sparql` | `pub-crossref-new.sparql`| |
+| | Local | `pub-local-vivo.sparql` | `pub-local-new.sparql`| |
+|  | Figshare | `pub-figshare-vivo.sparql` | `pub-figshare-new.sparql`| |
 |Dataset | DataCite | `data-datacite-vivo.sparql` | `data-datacite-new.sparql`| |
-|Dataset | Local | `data-local-vivo.sparql` | `data-local-new.sparql`| |
+|  | Local | `data-local-vivo.sparql` | `data-local-new.sparql`| |
 |Person | ORCID | `person-orcid-vivo.sparql` | `person-orcid-new.sparql`| Need API Key|
-|Person | Local | `person-local-vivo.sparql` | `person-local-new.sparql`| |
+|  | Local | `person-local-vivo.sparql` | `person-local-new.sparql`| |
 |Project | Local | `project-local-vivo.sparql` | `project-local-new.sparql`| |
 |Resource | Local | `resource-local-vivo.sparql` | `resource-local-new.sparql`| |
