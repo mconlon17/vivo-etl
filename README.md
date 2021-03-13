@@ -16,7 +16,8 @@ The approach converts JSON data to VIVO RDF using a simple pipeline:
 
     JSON -> raw RDF -> VIVO RDF -> VIVO triplestore
     
-For CSV and TSV files, first convert them to JSON and then follow the same pipeline.
+For CSV and TSV files, first convert them to JSON using csv2json (see below) and then 
+follow the same pipeline.
 
 Notice that nothing here is particularly "VIVO" -- we are just making triples and
 loading them to a triple store in accordance with some semantics of our choice.
@@ -42,20 +43,32 @@ Use the command line tool `wget` to create a JSON file from an API.
 
 ## `JSON2RDF`
 
-Use [`JSON2RDF](https://github.com/AtomGraph/JSON2RDF) to convert any JSON file a *raw* RDF file.  `JSON2RDF` uses the 
-semantics
+Use [`JSON2RDF](https://github.com/AtomGraph/JSON2RDF) to convert any JSON file a *raw* 
+RDF file.  `JSON2RDF` uses the semantics
 of the JSON file to create predicates for the triples it uses to create RDF.
+
+## riot
+
+Use [`riot`](), the Apache Jena "RDF input output tool" to convert the output of 
+`JSON2RDF` to a TURTLE representation appropriate for `robot` (see below).  By
+default, `JSON2RDF` produces N-triples with blank node IRI for entities.  `robot` is
+not yet able to read such files.  Converting the triples format to an anonymous TTL
+format allows `robot` to assign blank node identifiers and proceed with processing.
 
 ## `robot`
 
-Use [`robot`](http://robot.obolibrary.org/) to convert the raw RDF produced by `JSON2RDF` to VIVO RDF for the
+Use [`robot`](http://robot.obolibrary.org/) to convert the raw RDF produced by `JSON2RDF` 
+and `riot` to VIVO RDF for the
 ontologies of choice by using an appropriate SPARQL CONSTRUCT query.  Examples
 are provided.
 
 ## `tdbloader`
 
-Use [tdbloader](https://jena.apache.org/documentation/tdb/commands.html#tdbloader) for loading triples to a triple store.  It's super fast. And
-for MacOS, and Linux, there's [tdbloader2](https://jena.apache.org/documentation/tdb/commands.html#tdbloader2) that's even faster.
+Use [tdbloader](https://jena.apache.org/documentation/tdb/commands.html#tdbloader) for 
+loading triples to a triple store.  It's super fast. And
+for MacOS, and Linux, there's also 
+[tdbloader2](https://jena.apache.org/documentation/tdb/commands.html#tdbloader2) 
+that's even faster.
 
 # Examples
 
@@ -68,3 +81,4 @@ is able to use the new ontologies.
 Entities | Source | Target | Query VIVO | Query New 
 --- | --- | --- | --- | --- 
 Organizations | ROR | new VIVO | `org-ror-new.sparql` |`org-ror-new.sparql`
+Organizations | ROR | VIVO | `org-ror-vivo.sparql` |`org-ror-vivo.sparql`
