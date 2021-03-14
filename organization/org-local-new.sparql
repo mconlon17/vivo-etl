@@ -1,0 +1,93 @@
+PREFIX my: <http://my.org#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX iao: <http://purl.obolibrary.org/obo/iao.owl#IAO_>
+PREFIX org: <http://purl.obolibrary.org/obo/org.owl#ORG_>
+PREFIX ro: <http://purl.obolibrary.org/obo/ro.org#RO_>
+PREFIX vivo: <http://purl.obolibrary.org/obo/vivo.owl#VIVO_>
+
+
+CONSTRUCT {
+    ?org_uri a ?type_uri .                  # create an org     
+    ?org_uri rdfs:label ?name .             # name the org
+    
+    ?org_uri org:2000001 ?overview .        # description of the org
+    
+    ?org_uri org:1000001 ?parent_uri .      # org has parent org
+    
+    ?org_uri vivo:0002001 ?acronym .        # has abbreviation
+
+    ?org_uri ro:0000091 ?disposition_uri .  # org has disposition .
+    
+    ?org_uri iao:0000235 ?ror_uri .         # the org denotedBy an id
+    ?ror_uri a iao:0022022 .                # the id is a local org id (ido)
+    ?ror_uri iao:0022342 ?ror .             # the localid has a value
+    
+    ?link_uri iao:0000136 ?org_uri .        # link is about org
+    ?link_uri a iao:90012234 .              # link is a website
+    ?link_uri iao:0022342 ?link .           # link has value
+    ?link_uri rdfs:label "Homepage"@en .    # link has a label
+
+    }
+
+WHERE {	
+    
+    # ID and org_uri
+    
+    ?s my:ID ?id .
+    BIND(IRI(CONCAT("http://vivoweb.org/org/local",?id)) AS ?org_uri)
+    BIND(IRI(CONCAT(str(?org_uri),"localid")) AS ?localid_uri)
+    
+    # Name
+
+    ?s my:Name ?name .
+           
+    # Abbreviation
+    
+    OPTIONAL { ?s my:Abbreviation ?acronym . }
+    
+    # Disposition
+    
+    ?s my:Disposition ?disposition .
+    BIND( IF(?type = "University", 	            org:0000010, 
+          IF(?type = "College", 	            org:0000011,
+          IF(?type = "AcademicDepartment", 		org:0000012,
+          IF(?type = "CoreLaboratory", 	        org:0000013,
+          IF(?type = "Library", 	            org:0000014,
+          IF(?type = "ClinicalResearch", 	    org:0000015,
+          IF(?type = "ResearchAdministration", 	org:0000016,
+          IF(?type = "ClinicalResearch", 	    org:0000017,
+          IF(?type = "SurveyResearch", 	        org:0000018,
+          IF(?type = "AnimalCare", 	            org:0000019,
+          IF(?type = "StartupIncubator", 	    org:0000020,
+          "")
+    )))))))))) AS ?disposition_uri)
+    
+    # Type
+    
+    ?s my:Type ?type .
+    BIND( IF(?type = "GovernmentOrganization", 	org:0000005, 
+          IF(?type = "OrganizationPart", 	    org:0000006,
+          IF(?type = "Nonprofit", 		        org:0000007,
+          IF(?type = "Company", 	            org:0000008,
+          IF(?type = "Informal", 	            org:0000009,
+          org:0000001)
+    )))) AS ?type_uri)
+    
+    # Parent
+    
+    OPTIONAL {
+    ?s my:Parent ?parent_id
+    BIND(IRI(CONCAT("http://vivoweb.org/org/local",?parent_id)) AS ?parent_uri)
+    }
+    
+    
+    # Links (home page)
+    
+    ?s my:Homepage ?link .
+    BIND(IRI(CONCAT(str(?org_uri),"homepage")) AS ?link_uri) 
+    
+    # Overview
+    
+    ?s my:Overview ?overview .
+}
