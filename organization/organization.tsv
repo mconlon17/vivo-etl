@@ -1,12 +1,12 @@
-ID	Name	Abbreviation	Type	Homepage
-RR1	CTSI Biorepository		Facility	https://www.ctsi.ufl.edu/research/laboratory-services/ctsi-biorepository-2/ 
-RR2	HiperGator		Facility	https://www.rc.ufl.edu/services/hipergator/ 
-RR3	Interdisciplinary Center for Biotechnology Research	ICBR	Facility	https://biotech.ufl.edu/ 
-RR4	George A. Smathers Libraries		Facility	https://uflib.ufl.edu/ 
-RR5	Clinical Research Center	CRC	Facility	https://www.ctsi.ufl.edu/research/uf-clinical-research-center/ 
-RR6	Integrated Data Repository	IDR	Facility	https://idr.ufhealth.org/ 
-RR7	VIVO		Facility	https://vivo.ufl.edu
-RR8	Survey Research Center	UFSRC	Facility	https://www.bebr.ufl.edu/survey 
-RR9	Animal Care Services	ACS	Facility	https://acs.ufl.edu/ 
-RR10	Sid Martin Biotech		Facility	http://innovate.research.ufl.edu/sid-martin-biotech/ 
-RR11	Technology Licensing		Facility	http://innovate.research.ufl.edu/tech-licensing/ 
+ID	Name	Abbreviation	Disposition	Type	Parent	Homepage	Overview
+ORG1	University of Florida	UF 	University	GovernmentOrganization		https://uf.edu	"Very large, highly ranked, public research university in Gainesville, Florida."
+ORG2	College of Liberal Arts and Sciences	CLAS	College	OrganizationPart	ORG1	https://clas.ufl.edu	"Sciences, the humanties, and social sciences.  The intellectual core of the university."
+ORG11	Mathematics		AcademicDepartment	OrganizationPart	ORG2	https://math.ufl.edu	"The math department. Number theory, topology, computational complexity and more."
+ORG3	Interdisciplinary Center for Biotechnology Research	ICBR	CoreLaboratory	OrganizationPart	ORG6	https://biotech.ufl.edu/ 	Core laboratories serving UF research
+ORG4	George A. Smathers Libraries		Library	OrganizationPart	ORG1	https://uflib.ufl.edu/ 	"The Smathers Libraries collaborate with UF faculty, students and staff, as well as the University’s collaborators and constituents, to facilitate knowledge creation that contributes to UF’s standing as a preeminent public research university. The Libraries encourage creativity and inquiry necessary to support the University’s global ambitions and play an important role in attracting and retaining top students, faculty and staff."
+ORG5	Clinical Research Center	CRC	ClinicalResearch	OrganizationPart	ORG1	https://www.ctsi.ufl.edu/research/uf-clinical-research-center/ 	"The CRC provides services for studies involving diverse diseases and age groups. The CRC’s highly experienced research staff includes registered nurses, research coordinators, a research dietitian, investigational pharmacists, research support and administrative personnel. Initial consultations for all services are offered at no cost. If a study requires special or extended involvement of staff, cost may be assessed. We will discuss all available options at the first consultation."
+ORG6	Office of Research		ResearchAdministation	OrganizationPart	ORG1	https://research.ufl.edu	"UF Research provides programs and services to support UF faculty and staff in their research efforts. We identify grant opportunities, manage proposals and awards, protect intellectual property, work with potential industry partners, highlight research achievements and more."
+ORG7	Clinical and Translational Science Institute	CTSI	ClinicalResearch	OrganizationPart	ORG6	https://ctsi.ufl.edu 	"The mission of the UF CTSI is to improve human health by accelerating the translation of scientific discoveries and the implementation of evidence-based best practices for the diagnosis, treatment, prevention and cure of human disease."
+ORG8	Survey Research Center	UFSRC	SurveyResearch	OrganizationPart	ORG2	https://www.bebr.ufl.edu/survey 	The University of Florida Survey Research Center (UFSRC) is an applied research center within the UF College of Liberal Arts and Sciences. The mission of the UFSRC is to accurately collect data in a manner that is respectful of our survey participants and serves the needs of UF faculty and other partners for high quality and cost-effective research.
+ORG9	Animal Care Services	ACS	AnimalCare	OrganizationPart	ORG6	https://acs.ufl.edu/ 	"Animal Care Services provides oversight for the care and well-being of all animals used for research, teaching, and testing at the University of Florida."
+ORG10	Sid Martin Biotech		StartupIncubation	OrganizationPart	ORG6	http://innovate.research.ufl.edu/sid-martin-biotech/ 	"UF Innovate | Sid Martin Biotech is a world-recognized leader in biotechnology business incubation – and with well-equipped laboratories and specialized equipment, plus an outstanding network of mentors, advisors and collaborators, it’s the perfect place for you to grow your biotech business."
