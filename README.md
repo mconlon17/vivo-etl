@@ -85,9 +85,9 @@ is able to use the new ontologies.
 
 | Entities | Source | Script | Example |
 | --- | --- | --- | --- | 
-|Organization | ROR | ./ror.sh *rorid* *outfile* [vivo\|new] | ./ror.sh 02y3ad647 uf new |
-| | Local |  | | 
-|Publication | Pubmed | ./pubmed.sh *pmid* *outfile* [vivo\|new] | ./pubmed.sh  33467846 metabosoftware vivo |
+|Organization | ROR | ./org-ror.sh *rorid* *outfile* [vivo\|new] | ./org-ror.sh 02y3ad647 uf new |
+| | Local | ./org-local.sh *filename*  [vivo\|new] | ./org-local.sh org-local new| 
+|Publication | Pubmed |  |  |
 |  | CrossRef | | |
 | | Local | | |
 |  | Figshare | | |
