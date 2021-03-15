@@ -1,145 +1,167 @@
-@prefix org:   <http://purl.obolibrary.org/obo/org.owl#ORG_> .
-@prefix iao:   <http://purl.obolibrary.org/obo/iao.owl#IAO_> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix vivo:  <http://purl.obolibrary.org/obo/vivo.owl#VIVO_> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vivo:  <http://vivoweb.org/ontology/core#> .
 @prefix my:    <http://my.org#> .
-@prefix ro:    <http://purl.obolibrary.org/obo/ro.org#RO_> .
+@prefix obo:   <http://purl.obolibrary.org/obo/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 
 <http://vivoweb.org/org/localORG11homepage>
-        a            iao:90012234 ;
-        rdfs:label   "Homepage"@en ;
-        iao:0000136  <http://vivoweb.org/org/localORG11> ;
-        iao:0022342  "https://math.ufl.edu" .
+        rdfs:label  "Homepage"@en ;
+        vcard:url   "https://math.ufl.edu" .
 
 <http://vivoweb.org/org/localORG6>
-        a            org:0000006 ;
-        rdfs:label   "Office of Research" ;
-        org:1000001  <http://vivoweb.org/org/localORG1> ;
-        org:2000001  "HQ for research" .
+        a                vivo:ResearchOrganization ;
+        rdfs:label       "Office of Research" ;
+        obo:ARG_2000028  <http://vivoweb.org/org/localORG6vcard> ;
+        obo:BFO_0000050  <http://vivoweb.org/org/localORG1> ;
+        vivo:overview    "HQ for research" .
 
 <http://vivoweb.org/org/localORG2homepage>
-        a            iao:90012234 ;
-        rdfs:label   "Homepage"@en ;
-        iao:0000136  <http://vivoweb.org/org/localORG2> ;
-        iao:0022342  "https://clas.ufl.edu" .
+        rdfs:label  "Homepage"@en ;
+        vcard:url   "https://clas.ufl.edu" .
 
 <http://vivoweb.org/org/localORG4homepage>
-        a            iao:90012234 ;
-        rdfs:label   "Homepage"@en ;
-        iao:0000136  <http://vivoweb.org/org/localORG4> ;
-        iao:0022342  "https://uflib.ufl.edu/ " .
+        rdfs:label  "Homepage"@en ;
+        vcard:url   "https://uflib.ufl.edu/ " .
 
 <http://vivoweb.org/org/localORG5>
-        a             org:0000006 ;
-        rdfs:label    "Clinical Research Center" ;
-        org:1000001   <http://vivoweb.org/org/localORG1> ;
-        org:2000001   "A place for clinical research" ;
-        vivo:0002001  "CRC" .
+        a                  vivo:ResearchOrganization ;
+        rdfs:label         "Clinical Research Center" ;
+        obo:ARG_2000028    <http://vivoweb.org/org/localORG5vcard> ;
+        obo:BFO_0000050    <http://vivoweb.org/org/localORG1> ;
+        vivo:abbreviation  "CRC" ;
+        vivo:overview      "A place for clinical research" .
 
-<http://vivoweb.org/org/localORG1homepage>
-        a            iao:90012234 ;
-        rdfs:label   "Homepage"@en ;
-        iao:0000136  <http://vivoweb.org/org/localORG1> ;
-        iao:0022342  "https://uf.edu" .
+<http://vivoweb.org/org/localORG4vcard>
+        vcard:hasURL  <http://vivoweb.org/org/localORG4homepage> .
 
-<http://vivoweb.org/org/localORG3homepage>
-        a            iao:90012234 ;
-        rdfs:label   "Homepage"@en ;
-        iao:0000136  <http://vivoweb.org/org/localORG3> ;
-        iao:0022342  "https://biotech.ufl.edu/ " .
+<http://vivoweb.org/org/localORG10vcard>
+        vcard:hasURL  <http://vivoweb.org/org/localORG10homepage> .
+
+<http://vivoweb.org/org/localORG1vcard>
+        vcard:hasURL  <http://vivoweb.org/org/localORG1homepage> .
 
 <http://vivoweb.org/org/localORG5homepage>
-        a            iao:90012234 ;
-        rdfs:label   "Homepage"@en ;
-        iao:0000136  <http://vivoweb.org/org/localORG5> ;
-        iao:0022342  "https://www.ctsi.ufl.edu/research/uf-clinical-research-center/ " .
+        rdfs:label  "Homepage"@en ;
+        vcard:url   "https://www.ctsi.ufl.edu/research/uf-clinical-research-center/ " .
+
+<http://vivoweb.org/org/localORG1homepage>
+        rdfs:label  "Homepage"@en ;
+        vcard:url   "https://uf.edu" .
+
+<http://vivoweb.org/org/localORG3homepage>
+        rdfs:label  "Homepage"@en ;
+        vcard:url   "https://biotech.ufl.edu/ " .
 
 <http://vivoweb.org/org/localORG7homepage>
-        a            iao:90012234 ;
-        rdfs:label   "Homepage"@en ;
-        iao:0000136  <http://vivoweb.org/org/localORG7> ;
-        iao:0022342  "https://ctsi.ufl.edu " .
+        rdfs:label  "Homepage"@en ;
+        vcard:url   "https://ctsi.ufl.edu " .
+
+<http://vivoweb.org/org/localORG8vcard>
+        vcard:hasURL  <http://vivoweb.org/org/localORG8homepage> .
+
+<http://vivoweb.org/org/localORG5vcard>
+        vcard:hasURL  <http://vivoweb.org/org/localORG5homepage> .
 
 <http://vivoweb.org/org/localORG4>
-        a            org:0000006 ;
-        rdfs:label   "George A. Smathers Libraries" ;
-        org:1000001  <http://vivoweb.org/org/localORG1> ;
-        org:2000001  "Big library with satellite libraries" .
+        a                vivo:Library ;
+        rdfs:label       "George A. Smathers Libraries" ;
+        obo:ARG_2000028  <http://vivoweb.org/org/localORG4vcard> ;
+        obo:BFO_0000050  <http://vivoweb.org/org/localORG1> ;
+        vivo:overview    "Big library with satellite libraries" .
 
 <http://vivoweb.org/org/localORG11>
-        a            org:0000006 ;
-        rdfs:label   "Mathematics" ;
-        org:1000001  <http://vivoweb.org/org/localORG2> ;
-        org:2000001  "You know, math" .
+        a                vivo:Department ;
+        rdfs:label       "Mathematics" ;
+        obo:ARG_2000028  <http://vivoweb.org/org/localORG11vcard> ;
+        obo:BFO_0000050  <http://vivoweb.org/org/localORG2> ;
+        vivo:overview    "You know, math" .
+
+<http://vivoweb.org/org/localORG9vcard>
+        vcard:hasURL  <http://vivoweb.org/org/localORG9homepage> .
 
 <http://vivoweb.org/org/localORG6homepage>
-        a            iao:90012234 ;
-        rdfs:label   "Homepage"@en ;
-        iao:0000136  <http://vivoweb.org/org/localORG6> ;
-        iao:0022342  "https://research.ufl.edu" .
+        rdfs:label  "Homepage"@en ;
+        vcard:url   "https://research.ufl.edu" .
 
 <http://vivoweb.org/org/localORG8homepage>
-        a            iao:90012234 ;
-        rdfs:label   "Homepage"@en ;
-        iao:0000136  <http://vivoweb.org/org/localORG8> ;
-        iao:0022342  "https://www.bebr.ufl.edu/survey " .
-
-<http://vivoweb.org/org/localORG9>
-        a             org:0000006 ;
-        rdfs:label    "Animal Care Services" ;
-        org:1000001   <http://vivoweb.org/org/localORG6> ;
-        org:2000001   "A place that can take care of your research animals for you" ;
-        vivo:0002001  "ACS" .
-
-<http://vivoweb.org/org/localORG3>
-        a             org:0000006 ;
-        rdfs:label    "Interdisciplinary Center for Biotechnology Research" ;
-        org:1000001   <http://vivoweb.org/org/localORG6> ;
-        org:2000001   "Core laboratories for researchers" ;
-        vivo:0002001  "ICBR" .
+        rdfs:label  "Homepage"@en ;
+        vcard:url   "https://www.bebr.ufl.edu/survey " .
 
 <http://vivoweb.org/org/localORG10>
-        a            org:0000006 ;
-        rdfs:label   "Sid Martin Biotech" ;
-        org:1000001  <http://vivoweb.org/org/localORG6> ;
-        org:2000001  "A startup incubator" .
+        a                vivo:ResearchOrganization ;
+        rdfs:label       "Sid Martin Biotech" ;
+        obo:ARG_2000028  <http://vivoweb.org/org/localORG10vcard> ;
+        obo:BFO_0000050  <http://vivoweb.org/org/localORG6> ;
+        vivo:overview    "A startup incubator" .
+
+<http://vivoweb.org/org/localORG3>
+        a                  vivo:CoreLaboratory ;
+        rdfs:label         "Interdisciplinary Center for Biotechnology Research" ;
+        obo:ARG_2000028    <http://vivoweb.org/org/localORG3vcard> ;
+        obo:BFO_0000050    <http://vivoweb.org/org/localORG6> ;
+        vivo:abbreviation  "ICBR" ;
+        vivo:overview      "Core laboratories for researchers" .
+
+<http://vivoweb.org/org/localORG9>
+        a                  vivo:ResearchOrganization ;
+        rdfs:label         "Animal Care Services" ;
+        obo:ARG_2000028    <http://vivoweb.org/org/localORG9vcard> ;
+        obo:BFO_0000050    <http://vivoweb.org/org/localORG6> ;
+        vivo:abbreviation  "ACS" ;
+        vivo:overview      "A place that can take care of your research animals for you" .
 
 <http://vivoweb.org/org/localORG9homepage>
-        a            iao:90012234 ;
-        rdfs:label   "Homepage"@en ;
-        iao:0000136  <http://vivoweb.org/org/localORG9> ;
-        iao:0022342  "https://acs.ufl.edu/ " .
+        rdfs:label  "Homepage"@en ;
+        vcard:url   "https://acs.ufl.edu/ " .
+
+<http://vivoweb.org/org/localORG2vcard>
+        vcard:hasURL  <http://vivoweb.org/org/localORG2homepage> .
 
 <http://vivoweb.org/org/localORG2>
-        a             org:0000006 ;
-        rdfs:label    "College of Liberal Arts and Sciences" ;
-        org:1000001   <http://vivoweb.org/org/localORG1> ;
-        org:2000001   "Big College African Studies to Zoology" ;
-        vivo:0002001  "CLAS" .
+        a                  vivo:College ;
+        rdfs:label         "College of Liberal Arts and Sciences" ;
+        obo:ARG_2000028    <http://vivoweb.org/org/localORG2vcard> ;
+        obo:BFO_0000050    <http://vivoweb.org/org/localORG1> ;
+        vivo:abbreviation  "CLAS" ;
+        vivo:overview      "Big College African Studies to Zoology" .
 
 <http://vivoweb.org/org/localORG8>
-        a             org:0000006 ;
-        rdfs:label    "Survey Research Center" ;
-        org:1000001   <http://vivoweb.org/org/localORG2> ;
-        org:2000001   "A place that can do surveys for you" ;
-        vivo:0002001  "UFSRC" .
+        a                  vivo:ResearchOrganization ;
+        rdfs:label         "Survey Research Center" ;
+        obo:ARG_2000028    <http://vivoweb.org/org/localORG8vcard> ;
+        obo:BFO_0000050    <http://vivoweb.org/org/localORG2> ;
+        vivo:abbreviation  "UFSRC" ;
+        vivo:overview      "A place that can do surveys for you" .
 
 <http://vivoweb.org/org/localORG10homepage>
-        a            iao:90012234 ;
-        rdfs:label   "Homepage"@en ;
-        iao:0000136  <http://vivoweb.org/org/localORG10> ;
-        iao:0022342  "http://innovate.research.ufl.edu/sid-martin-biotech/ " .
+        rdfs:label  "Homepage"@en ;
+        vcard:url   "http://innovate.research.ufl.edu/sid-martin-biotech/ " .
+
+<http://vivoweb.org/org/localORG11vcard>
+        vcard:hasURL  <http://vivoweb.org/org/localORG11homepage> .
+
+<http://vivoweb.org/org/localORG6vcard>
+        vcard:hasURL  <http://vivoweb.org/org/localORG6homepage> .
+
+<http://vivoweb.org/org/localORG3vcard>
+        vcard:hasURL  <http://vivoweb.org/org/localORG3homepage> .
+
+<http://vivoweb.org/org/localORG7vcard>
+        vcard:hasURL  <http://vivoweb.org/org/localORG7homepage> .
 
 <http://vivoweb.org/org/localORG1>
-        a             org:0000005 ;
-        rdfs:label    "University of Florida" ;
-        org:2000001   "Big State U" ;
-        vivo:0002001  "UF " .
+        a                  vivo:University ;
+        rdfs:label         "University of Florida" ;
+        obo:ARG_2000028    <http://vivoweb.org/org/localORG1vcard> ;
+        vivo:abbreviation  "UF" ;
+        vivo:overview      "Big State U" .
 
 <http://vivoweb.org/org/localORG7>
-        a             org:0000006 ;
-        rdfs:label    "Clinical and Translational Science Institute" ;
-        org:1000001   <http://vivoweb.org/org/localORG6> ;
-        org:2000001   "HQ for clinical and translational research" ;
-        vivo:0002001  "CTSI" .
+        a                  vivo:ResearchOrganization ;
+        rdfs:label         "Clinical and Translational Science Institute" ;
+        obo:ARG_2000028    <http://vivoweb.org/org/localORG7vcard> ;
+        obo:BFO_0000050    <http://vivoweb.org/org/localORG6> ;
+        vivo:abbreviation  "CTSI" ;
+        vivo:overview      "HQ for clinical and translational research" .

@@ -5,7 +5,7 @@ ORG11	Mathematics		AcademicDepartment	OrganizationPart	ORG2	https://math.ufl.edu
 ORG3	Interdisciplinary Center for Biotechnology Research	ICBR	CoreLaboratory	OrganizationPart	ORG6	https://biotech.ufl.edu/ 	Core laboratories for researchers
 ORG4	George A. Smathers Libraries		Library	OrganizationPart	ORG1	https://uflib.ufl.edu/ 	Big library with satellite libraries
 ORG5	Clinical Research Center	CRC	ClinicalResearch	OrganizationPart	ORG1	https://www.ctsi.ufl.edu/research/uf-clinical-research-center/ 	A place for clinical research
-ORG6	Office of Research		ResearchAdministation	OrganizationPart	ORG1	https://research.ufl.edu	HQ for research
+ORG6	Office of Research		ResearchAdministration	OrganizationPart	ORG1	https://research.ufl.edu	HQ for research
 ORG7	Clinical and Translational Science Institute	CTSI	ClinicalResearch	OrganizationPart	ORG6	https://ctsi.ufl.edu 	HQ for clinical and translational research
 ORG8	Survey Research Center	UFSRC	SurveyResearch	OrganizationPart	ORG2	https://www.bebr.ufl.edu/survey 	A place that can do surveys for you
 ORG9	Animal Care Services	ACS	AnimalCare	OrganizationPart	ORG6	https://acs.ufl.edu/ 	A place that can take care of your research animals for you
