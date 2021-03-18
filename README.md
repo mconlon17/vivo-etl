@@ -27,53 +27,6 @@ Using this approach we can convert data from any source to any triple store.
 
 URLs for entities are constructed from PIDS.
 
-# Utilities
-
-## `csv2json.py`
-
-A utility, `csv2json.py` is provided in this repository to convert CSV and TSV files 
-to JSON.
-
-When data comes in the form of TSV or CSV, use the utility `csv2json.py` to convert
-it to JSON.  For example, the command line below converts a file called 
-`enterprise.tsv` and produces a file `entprise.json`, ready for further processing.
-
-    python3 csv2json.py <enterprise.tsv >enterprise.json
-
-## `wget`
-
-Use the command line tool `wget` to create a JSON file from an API.
-
-## `JSON2RDF`
-
-Use [`JSON2RDF`](https://github.com/AtomGraph/JSON2RDF) to convert any JSON file a *raw* 
-RDF file.  `JSON2RDF` uses the semantics
-of the JSON file to create predicates for the triples it uses to create RDF.
-
-## riot
-
-Use [`riot`](https://jena.apache.org/documentation/io/), the Apache Jena command line 
-"RDF input 
-output tool" to convert the output of 
-`JSON2RDF` to a TURTLE representation appropriate for `robot` (see below).  By
-default, `JSON2RDF` produces N-triples with blank node IRI for entities.  `robot` is
-not yet able to read such files.  Converting the triples format to an anonymous TTL
-format allows `robot` to assign blank node identifiers and proceed with processing.
-
-## `robot`
-
-Use [`robot`](http://robot.obolibrary.org/) to convert the raw RDF produced by `JSON2RDF` 
-and `riot` to VIVO RDF for the
-ontologies of choice by using an appropriate SPARQL CONSTRUCT query.  Examples
-are provided.
-
-## `tdbloader`
-
-Use [`tdbloader`](https://jena.apache.org/documentation/tdb/commands.html#tdbloader) for 
-loading triples to a triple store.  It's super fast. And
-for MacOS, and Linux, there's also 
-[tdbloader2](https://jena.apache.org/documentation/tdb/commands.html#tdbloader2) 
-that's even faster.
 
 # Examples
 
